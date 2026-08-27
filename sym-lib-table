@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "pcbgolf") (type "KiCad") (uri "${KIPRJMOD}/pcbgolf.kicad_sym") (options "") (descr ""))
+)

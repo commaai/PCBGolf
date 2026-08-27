@@ -1,0 +1,316 @@
+(footprint "CHIPLED"
+	(version 20260206)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(uuid "08aa69c8-f777-40a9-9a61-529d56442505")
+
+		(descr "CHIPLED\n\nSource: http://www.osram.convergy.de/ ... LG_R971.pdf")
+		(property "Reference" "REF**"
+			(at -1.27 1.27 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1bd27fe5-3929-47ea-950a-c5fac3e53c26")
+			(effects
+				(font
+					(size 0.747776 0.747776)
+					(thickness 0.065024)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "CHIPLED"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92a15fb2-111d-4440-a295-00756a42bec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a43e550-426c-4171-9163-16cf66d68a08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49c727a3-4cc0-4a3a-92dc-bee4341fc541")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0.7 1.8)
+			(end 0.7 -1.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1fffce5-30ce-4225-a492-ea42fb49ea89")
+		)
+		(fp_line
+			(start 0.7 -1.8)
+			(end -0.7 -1.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc837ec6-1d34-45f9-8c64-5d11bcf443f4")
+		)
+		(fp_line
+			(start -0.7 1.8)
+			(end 0.7 1.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df7c1ddd-4764-4aeb-848a-378d39ee908a")
+		)
+		(fp_line
+			(start -0.7 -1.8)
+			(end -0.7 1.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e4afee2-a456-456e-9829-ec64623dfb68")
+		)
+		(fp_line
+			(start 0.575 -0.525)
+			(end 0.575 0.525)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "81a1de27-8016-41d6-987e-ccce80f63467")
+		)
+		(fp_line
+			(start -0.575 0.5)
+			(end -0.575 -0.925)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "323b4259-3fd4-4c39-8c73-1d7bac85c2b4")
+		)
+		(fp_arc
+			(start 0.35 -1)
+			(mid 0 -0.65)
+			(end -0.35 -1)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f4958608-1609-4a02-8f69-d6c8fc41447b")
+		)
+		(fp_arc
+			(start -0.35 1)
+			(mid 0 0.65)
+			(end 0.35 1)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "030a5eaa-2ed9-4e50-ab6a-c83f4de53c9f")
+		)
+		(fp_circle
+			(center -0.45 -0.85)
+			(end -0.347 -0.85)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7ff07edf-3830-490e-96d0-d981da7f3acf")
+		)
+		(fp_poly
+			(pts
+				(xy 0.3 1) (xy 0.625 1) (xy 0.625 0.5) (xy 0.3 0.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "e04ab09e-5743-4b10-a032-b57f3db6d9d5")
+		)
+		(fp_poly
+			(pts
+				(xy 0.3 -0.5) (xy 0.625 -0.5) (xy 0.625 -1) (xy 0.3 -1)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b0501bd2-182e-41f0-b4a6-93142a2dfee6")
+		)
+		(fp_poly
+			(pts
+				(xy 0.175 0.75) (xy 0.325 0.75) (xy 0.325 0.5) (xy 0.175 0.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "117fb53e-1877-45af-9d65-5229c69e5475")
+		)
+		(fp_poly
+			(pts
+				(xy 0.175 -0.5) (xy 0.325 -0.5) (xy 0.325 -0.75) (xy 0.175 -0.75)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "88152796-71ba-4707-9815-aed241cd3022")
+		)
+		(fp_poly
+			(pts
+				(xy -0.2 -0.5) (xy 0.2 -0.5) (xy 0.2 -0.675) (xy -0.2 -0.675)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "9c8bf8dd-96da-4566-913b-b4ad0b23e35f")
+		)
+		(fp_poly
+			(pts
+				(xy -0.325 0.75) (xy -0.175 0.75) (xy -0.175 0.5) (xy -0.325 0.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "6ee4b8b8-da76-46cb-9f6f-9eb480a07e2f")
+		)
+		(fp_poly
+			(pts
+				(xy -0.325 -0.5) (xy -0.175 -0.5) (xy -0.175 -0.75) (xy -0.325 -0.75)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "2be2cdea-7deb-4a89-91c9-809d5852d829")
+		)
+		(fp_poly
+			(pts
+				(xy -0.6 -0.5) (xy -0.3 -0.5) (xy -0.3 -0.8) (xy -0.6 -0.8)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "c66e337c-210a-4982-8d7f-e6527c2d42f0")
+		)
+		(fp_poly
+			(pts
+				(xy -0.625 1) (xy -0.3 1) (xy -0.3 0.5) (xy -0.625 0.5)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "9ed51dc3-9a80-4bd2-a10f-0b381c714999")
+		)
+		(fp_poly
+			(pts
+				(xy -0.625 -0.925) (xy -0.4 -0.925) (xy -0.4 -1) (xy -0.625 -1)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "2fc1c2ee-09e4-4713-96c7-4b2731f27ab0")
+		)
+		(fp_text user "+"
+			(at 1.016 1.778)
+			(layer "F.SilkS")
+			(uuid "1b149930-5914-4670-80b0-96a98b70c5a3")
+			(effects
+				(font
+					(size 0.747776 0.747776)
+					(thickness 0.065024)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "A" smd rect
+			(at 0 1.05)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+
+			(solder_mask_margin 0.0508)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "99bce190-ff64-4746-ba8b-afaa1847e0c4")
+		)
+		(pad "C" smd rect
+			(at 0 -1.05)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+
+			(solder_mask_margin 0.0508)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "18fc850e-95ad-45ac-bbc2-5b941c802281")
+		)
+	(model "${KIPRJMOD}/pcbgolf.3dshapes/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+		(embedded_fonts no)
+	)

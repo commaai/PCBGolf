@@ -1,0 +1,19 @@
+# KiCad per-user state and lock files
+*.kicad_prl
+*.lck
+~*
+
+# KiCad autosaves, backups, and local history
+_autosave-*
+*-backups/
+.history/
+*.bak
+*.bck
+*.kicad_*-bak
+fp-info-cache
+
+# Editor and operating-system noise
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

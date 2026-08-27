@@ -1,0 +1,154 @@
+(footprint "0806"
+	(version 20260206)
+	(generator "pcbnew")
+		(layer "F.Cu")
+		(uuid "ef7ede7d-7d40-4a1e-8b7a-434b8bbf47b5")
+
+		(property "Reference" "REF**"
+			(at -1.462 -1.2255)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "99455e08-1a04-42e1-a33b-91bae3241be0")
+			(effects
+				(font
+					(size 0.560832 0.560832)
+					(thickness 0.048768)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0806"
+			(at 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99a92565-36d3-4b6b-b1d7-94984bf334e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75f140c6-ac3d-49e8-92aa-e6a6e1bb45c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b1219b2-c6e3-494b-8f6e-0a7876b58dd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.5 -1.054)
+			(end -1.5 -1.054)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a95602cb-a20a-4122-8d11-342561dd5af0")
+		)
+		(fp_line
+			(start -1.5 -1.054)
+			(end -1.5 1.054)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b60342d5-73a8-4a5f-97e2-847a359688ea")
+		)
+		(fp_line
+			(start 1.5 1.054)
+			(end 1.5 -1.054)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f6169ffc-3883-45b4-aae9-8d696d3da8bf")
+		)
+		(fp_line
+			(start -1.5 1.054)
+			(end 1.5 1.054)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98515391-ba7c-4f93-8ae9-75af35b3ff07")
+		)
+		(fp_poly
+			(pts
+				(xy -0.508 -0.635) (xy -1.016 -0.635) (xy -1.016 0.635) (xy -0.508 0.635)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "3d39262e-c24d-49b0-8677-5a8112e5304f")
+		)
+		(fp_poly
+			(pts
+				(xy 0.508 0.635) (xy 1.016 0.635) (xy 1.016 -0.635) (xy 0.508 -0.635)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "6e21b703-dfdf-434f-b833-f5b03f6020b0")
+		)
+		(pad "1" smd rect
+			(at -0.9 0)
+			(size 0.55 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+
+			(solder_mask_margin 0.0508)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "48af51a1-0a4b-4cc2-8d5c-10670c555ad6")
+		)
+		(pad "2" smd rect
+			(at 0.9 0)
+			(size 0.55 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+
+			(solder_mask_margin 0.0508)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "a00a7085-e6b4-4074-afa2-3652b0a89a73")
+		)
+	(model "${KIPRJMOD}/pcbgolf.3dshapes/Inductor_SMD.3dshapes/L_Cenker_CKCS201610.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+		(embedded_fonts no)
+	)
