@@ -53,4 +53,4 @@ Lowest score on the [leaderboard](https://comma.ai/leaderboard#pcbgolf_challenge
 ## Submission
 
 Submit a `.zip` file containing your finalized KiCad project and a STEP file of the final assembly [here](https://forms.gle/US88Hg7UR6bBuW3BA).
-Competitive scores will be posted on the [leaderboard](https://comma.ai/leaderboard#pcbgolf_challenge) after review.
+Competitive scores will be posted on the [leaderboard](https://comma.ai/leaderboard#pcbgolf_challenge) after review. Multiple submissions allowed.
