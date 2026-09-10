@@ -43,7 +43,7 @@ Your goal is to make the most compact, efficient board that retains the same int
 ### Rules
 
 * The bare PCB must be fully manufacturable by JLCPCB.
-* It must be possible to assemble the components by hand.
+* It must be possible to actually assemble the PCBA.
 * The assembled product must work and be usable.
 
 ### Prize
