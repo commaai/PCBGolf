@@ -45,6 +45,7 @@ Your goal is to make the most compact, efficient board that retains the same int
 * The bare PCB must be fully manufacturable by JLCPCB.
 * It must be possible to actually assemble the PCBA.
 * The assembled product must work and be usable.
+* Mating connectors must remain mechanically and electrically compatible.
 
 ### Prize
 
