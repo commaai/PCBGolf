@@ -118,4 +118,15 @@
 		)
 	)
 		(embedded_fonts no)
+	(fp_rect
+		(start -3.539 -1.621)
+		(end 3.539 1.621)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0017fec3-5eb2-4d0e-925a-4b00b1e2ac28")
+	)
 	)
