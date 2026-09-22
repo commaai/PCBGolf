@@ -119,8 +119,8 @@
 	)
 		(embedded_fonts no)
 	(fp_rect
-		(start -3.539 -1.621)
-		(end 3.539 1.621)
+		(start -3.539 -2.025)
+		(end 3.539 2.025)
 		(stroke
 			(width 0.05)
 			(type solid)
