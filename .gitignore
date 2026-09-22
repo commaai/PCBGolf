@@ -17,3 +17,16 @@ fp-info-cache
 *.swo
 .DS_Store
 Thumbs.db
+
+# tooling
+__pycache__/
+*.pyc
+
+# generated outputs
+fab/
+assembly.step
+area.csv
+
+#venv
+*.venv/
+*.env

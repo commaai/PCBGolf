@@ -1,0 +1,42 @@
+{
+  "_comment": "Component height above the board, mm, keyed by footprint library id. Measured from each footprint's STEP model (VERTEX_POINT geometry, with the footprint's own scale/rotate applied), NOT from datasheets. null = unknown; score.py will warn and treat Z as a lower bound. Verify the tallest few by hand - they set your Z, and every mm of error is (board area) mm3 of score error.",
+  "heights_mm": {
+    "pcbgolf:DCJACK_2MM_SMT": 11.8,
+    "pcbgolf:USB-C-FEMALE-VERT-GCT": 10.1,
+    "pcbgolf:DX07S024XJ1R1100": 3.89,
+    "pcbgolf:EVQ-Q2": 3.1,
+    "pcbgolf:CHOKE-3.2X2.5": 2.25,
+    "pcbgolf:DO-214AA(SMB)": 2.15,
+    "pcbgolf:0472192001": 1.9,
+    "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm": 1.75,
+    "pcbgolf:SOT23-5": 1.55,
+    "pcbgolf:SOT23-6": 1.55,
+    "pcbgolf:LQFP-144_20x20mm_P0.5mm": 1.5,
+    "pcbgolf:0805-C": 1.25,
+    "pcbgolf:L-1008": 1.2,
+    "pcbgolf:SOT23-3": 1.2,
+    "pcbgolf:PP-1212-8": 1.12,
+    "pcbgolf:CHIPLED": 1.1,
+    "pcbgolf:SOD-123F": 1.1,
+    "pcbgolf:0806": 1.05,
+    "pcbgolf:CREE-RGB-CLMVC": 1.0,
+    "pcbgolf:QFN64-9X9": 0.95,
+    "pcbgolf:TDFN8_2X3MC_MCH": 0.93,
+    "pcbgolf:0603-L": 0.8,
+    "pcbgolf:WQFN20": 0.77,
+    "pcbgolf:XTAL-3.2X2.5": 0.64,
+    "pcbgolf:0402-C": 0.5,
+    "pcbgolf:0402-R": 0.35,
+    "pcbgolf:2X04": null,
+    "pcbgolf:M2_BOLT": null
+  },
+  "_verify": {
+    "pcbgolf:DCJACK_2MM_SMT": "sets Z today. STEP model has a Z offset - hand-fitted, so check PJ-002AH-SMT-TR datasheet.",
+    "pcbgolf:USB-C-FEMALE-VERT-GCT": "VERTICAL receptacle, 10.1mm. A horizontal SMT USB-C is ~3.2mm for the same mating plug.",
+    "pcbgolf:0472192001": "STEP model has a Z offset; verify.",
+    "pcbgolf:CHOKE-3.2X2.5": "STEP model has a Z offset; verify.",
+    "pcbgolf:DX07S024XJ1R1100": "STEP model has a Z offset; verify.",
+    "pcbgolf:2X04": "no 3D model. THT 2.54mm header ~8.5mm above board; SMD right-angle far less.",
+    "pcbgolf:M2_BOLT": "no 3D model. Mounting hole - 0 if unpopulated, bolt head if not."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_comment": "Planned part changes, keyed by the STOCK footprint library id. area_mm2 is the replacement's area PER PLACEMENT (0 = delete the part). height_mm feeds the Z estimate. Everything here is a hypothesis until you have a real part number and have checked it against the rules - the 'why' column is what a reviewer reads, so fill it in.",
+  "swaps": {
+    "pcbgolf:LQFP-144_20x20mm_P0.5mm": {"area_mm2": 121.0, "height_mm": 1.2, "why": "STM32H725 UFBGA169 10x10 (or AG 7x7). CAN/SDIO must land on capable pins; firmware change is allowed. WARNING: 0.5mm BGA escape may force a 6th layer, which costs more than the area saves."},
+    "pcbgolf:0402-R":                   {"area_mm2": 0.90, "height_mm": 0.3,  "why": "0201. 125 placements; JLC assembles 0201."},
+    "pcbgolf:0402-C":                   {"area_mm2": 0.90, "height_mm": 0.3,  "why": "0201 where DC bias derating allows."},
+    "pcbgolf:0805-C":                   {"area_mm2": 1.55, "height_mm": 0.9,  "why": "0603 bulk caps; check ripple current and derating."},
+    "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm": {"area_mm2": 8.00, "height_mm": 1.55, "why": "OPA197IDBVR SOT-23-5. Single op-amp in an 8-pin body is pure waste. Also check whether TPS25944 IMON makes these redundant."},
+    "pcbgolf:USB-C-FEMALE-VERT-GCT":    {"area_mm2": 46.5, "height_mm": 3.2,  "why": "Horizontal SMT USB-C instead of vertical: same mating plug, 10.1mm -> 3.2mm. ASK COMMA whether this satisfies 'mechanically compatible'."},
+    "pcbgolf:QFN64-9X9":                {"area_mm2": 40.0, "height_mm": 0.95, "why": "USB2514B QFN36 6x6 if 4 downstream ports are enough. Count the hub's ports in the schematic first."},
+    "pcbgolf:M2_BOLT":                  {"area_mm2": 0.0,  "height_mm": 0.0,  "why": "Mounting holes are not in the README feature list. ASK COMMA before relying on this."},
+    "pcbgolf:EVQ-Q2":                   {"area_mm2": 8.00, "height_mm": 1.6,  "why": "Smaller SMD tact switch; must still be pressable by a finger."},
+    "pcbgolf:SOT23-5":                  {"area_mm2": 4.00, "height_mm": 1.1,  "why": "SOT-523 / SC-74A where the part exists at the same ratings."},
+    "pcbgolf:SOT23-3":                  {"area_mm2": 3.00, "height_mm": 1.1,  "why": "SOT-523."},
+    "pcbgolf:CHIPLED":                  {"area_mm2": 1.50, "height_mm": 0.5,  "why": "0402 LEDs."},
+    "pcbgolf:0472192001":               {"area_mm2": 160.0,"height_mm": 1.9,  "why": "Smaller microSD socket. Hard floor is the card itself, 15x11mm."},
+    "pcbgolf:DCJACK_2MM_SMT":           {"area_mm2": 110.0,"height_mm": 7.0,  "why": "Low-profile 2.1mm barrel jack. Mating-locked by rule, so the barrel OD sets the floor at ~7mm. This part sets Z."}
+  }
+}
