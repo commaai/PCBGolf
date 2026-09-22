@@ -5,7 +5,7 @@
     "pcbgolf:0402-R":                   {"area_mm2": 0.90, "height_mm": 0.3,  "why": "0201. 125 placements; JLC assembles 0201."},
     "pcbgolf:0402-C":                   {"area_mm2": 0.90, "height_mm": 0.3,  "why": "0201 where DC bias derating allows."},
     "pcbgolf:0805-C":                   {"area_mm2": 1.55, "height_mm": 0.9,  "why": "0603 bulk caps; check ripple current and derating."},
-    "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm": {"area_mm2": 8.00, "height_mm": 1.55, "why": "OPA197IDBVR SOT-23-5. Single op-amp in an 8-pin body is pure waste. Also check whether TPS25944 IMON makes these redundant."},
+    "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm": {"area_mm2": 0.0, "height_mm": 0.0, "why": "U9-U12 are OPA197 used open-loop as comparators driving the CAN activity LEDs (CAN_H vs CAN_L, +5V/100k offset sets the threshold). Not current sense -- IMON goes straight from TPS25944 pin 19 to the MCU. CAN_RX already reaches the MCU, so firmware can drive LED2-LED5 instead: delete 4 op-amps + R50-R61 (182mm2 total), keep R62-R65 as LED limits. Firmware changes are explicitly allowed. Needs 4 spare GPIOs."},
     "pcbgolf:USB-C-FEMALE-VERT-GCT":    {"area_mm2": 46.5, "height_mm": 3.2,  "why": "Horizontal SMT USB-C instead of vertical: same mating plug, 10.1mm -> 3.2mm. ASK COMMA whether this satisfies 'mechanically compatible'."},
     "pcbgolf:QFN64-9X9":                {"area_mm2": 40.0, "height_mm": 0.95, "why": "USB2514B QFN36 6x6 if 4 downstream ports are enough. Count the hub's ports in the schematic first."},
     "pcbgolf:M2_BOLT":                  {"area_mm2": 0.0,  "height_mm": 0.0,  "why": "Mounting holes are not in the README feature list. ASK COMMA before relying on this."},
