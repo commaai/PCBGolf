@@ -27,8 +27,8 @@
     "pcbgolf:XTAL-3.2X2.5": 0.64,
     "pcbgolf:0402-C": 0.5,
     "pcbgolf:0402-R": 0.35,
-    "pcbgolf:2X04": null,
-    "pcbgolf:M2_BOLT": null
+    "pcbgolf:2X04": 0.0,
+    "pcbgolf:M2_BOLT": 0.0
   },
   "_verify": {
     "pcbgolf:DCJACK_2MM_SMT": "sets Z today. STEP model has a Z offset - hand-fitted, so check PJ-002AH-SMT-TR datasheet.",
