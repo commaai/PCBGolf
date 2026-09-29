@@ -5,6 +5,145 @@
 	(uuid "5ce5ae11-0353-48de-90d0-85969444e2e6")
 	(paper "User" 297.0022 259.334)
 	(lib_symbols
+		(symbol "pcbgolf:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pcbgolf:STM32H725ZGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5592,145 +5731,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcbgolf:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 34.29 172.72)
@@ -5981,16 +5981,8 @@
 		(uuid "38d0c5b5-ef59-4b76-b5a8-8891e9cba6bf")
 	)
 	(no_connect
-		(at 64.77 147.32)
-		(uuid "3c4a5924-6c87-47b0-bea8-92eb72f4a84a")
-	)
-	(no_connect
 		(at 64.77 88.9)
 		(uuid "45a1bec7-7f5e-4498-bc1e-084458fed6c3")
-	)
-	(no_connect
-		(at 64.77 149.86)
-		(uuid "48f59d74-66a3-451e-8d2c-9d826c9da673")
 	)
 	(no_connect
 		(at 161.29 68.58)
@@ -6019,10 +6011,6 @@
 	(no_connect
 		(at 64.77 76.2)
 		(uuid "5f78fdae-5d6a-4fa0-838d-eb147fb6e120")
-	)
-	(no_connect
-		(at 64.77 142.24)
-		(uuid "67735acf-acb7-4148-b866-6aa87a3ac400")
 	)
 	(no_connect
 		(at 64.77 93.98)
@@ -6075,10 +6063,6 @@
 	(no_connect
 		(at 64.77 154.94)
 		(uuid "c266cd40-a966-4467-8422-cf238566c83e")
-	)
-	(no_connect
-		(at 64.77 144.78)
-		(uuid "c8e31fd4-7592-4e11-a067-f5ac94f7ed44")
 	)
 	(no_connect
 		(at 161.29 60.96)
@@ -8442,6 +8426,30 @@
 			)
 		)
 	)
+	(global_label "LED_CAN1"
+		(shape bidirectional)
+		(at 64.77 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "26ab45ef-eabc-402e-b1cc-6321606db6c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5349 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CH4_IMON"
 		(shape bidirectional)
 		(at 163.83 58.42 0)
@@ -8730,6 +8738,30 @@
 			)
 		)
 	)
+	(global_label "LED_CAN0"
+		(shape bidirectional)
+		(at 64.77 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "4d19c585-6eec-44be-b5c9-6842e0fe4470")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5349 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CH1_SBU1"
 		(shape bidirectional)
 		(at 181.61 134.62 0)
@@ -8887,6 +8919,30 @@
 		(uuid "60bf5523-3d6f-42c9-8f4a-e99ca3023fa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.6523 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_CAN2"
+		(shape bidirectional)
+		(at 64.77 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "6436ba49-c0d2-48b6-b0fb-b36de97e8b48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5349 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9751,6 +9807,30 @@
 		(uuid "f0554c3f-d782-486a-931a-18799cbbe6d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.2254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_CAN3"
+		(shape bidirectional)
+		(at 64.77 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "f7b6cac5-7c56-4a31-9461-83853feeb522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5349 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

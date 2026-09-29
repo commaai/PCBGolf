@@ -5,6 +5,423 @@
 	(uuid "3dd848dd-20c1-4538-b9e1-dea1a629889b")
 	(paper "User" 297.0022 223.9264)
 	(lib_symbols
+		(symbol "pcbgolf:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pcbgolf:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "pcbgolf:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pcbgolf:OPA197IDR"
 			(pin_names
 				(offset 0.127)
@@ -45,11 +462,6 @@
 					)
 				)
 			)
-			(property "MPN" "OPA197IDR"
-				(at 0 0 0)
-				(hide yes)
-				(effects (font (size 1.27 1.27)))
-			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 				(at 1.27 30.48 0)
 				(show_name no)
@@ -62,6 +474,17 @@
 				)
 			)
 			(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "OPA197IDR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -107,6 +530,43 @@
 						(type background)
 					)
 				)
+				(pin no_connect line
+					(at 2.54 0 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -143,17 +603,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -2.54 0)
+				(pin no_connect line
+					(at 0 2.54 270)
 					(length 2.54)
-					(name "-"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -198,44 +659,9 @@
 					)
 				)
 				(pin no_connect line
-					(at 2.54 0 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 2.54 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at 0 -2.54 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -1967,447 +2393,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcbgolf:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pcbgolf:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pcbgolf:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(junction
-		(at 204.47 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a4903b6-0260-4574-a036-060bb9189ec6")
-	)
-	(junction
-		(at 204.47 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a0f8cc7-2e45-49d3-a031-5167caa6671e")
-	)
-	(junction
-		(at 204.47 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7625b191-6a03-4cd8-9364-4461f765f04a")
-	)
-	(junction
-		(at 204.47 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f36d699-543e-48e4-acc3-48390a128b42")
 	)
 	(wire
 		(pts
@@ -2458,16 +2443,6 @@
 			(type solid)
 		)
 		(uuid "0601637f-f3a7-4b50-a840-7209fa5d85da")
-	)
-	(wire
-		(pts
-			(xy 204.47 34.29) (xy 204.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "076a1c97-36a6-4bc5-afb4-b584380be666")
 	)
 	(wire
 		(pts
@@ -2538,16 +2513,6 @@
 			(type solid)
 		)
 		(uuid "0faf457d-5aed-496e-8243-b0f04738d7a8")
-	)
-	(wire
-		(pts
-			(xy 212.09 156.21) (xy 212.09 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101a1d1c-91c8-4349-b380-98cbb4177232")
 	)
 	(wire
 		(pts
@@ -2641,16 +2606,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 38.1) (xy 204.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299217d2-52e2-4021-88db-39f17deb9410")
-	)
-	(wire
-		(pts
 			(xy 119.38 201.93) (xy 124.46 201.93)
 		)
 		(stroke
@@ -2688,16 +2643,6 @@
 			(type solid)
 		)
 		(uuid "2df76703-31ca-46be-bb58-6f8d39efefeb")
-	)
-	(wire
-		(pts
-			(xy 204.47 34.29) (xy 207.01 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1f103d-5ad1-4d3f-ab0c-13f839dd7f10")
 	)
 	(wire
 		(pts
@@ -2771,16 +2716,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 80.01) (xy 212.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354ab710-94aa-4a09-9ab5-52150ad0289b")
-	)
-	(wire
-		(pts
 			(xy 54.61 115.57) (xy 52.07 115.57)
 		)
 		(stroke
@@ -2791,16 +2726,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 72.39) (xy 207.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b62dcbb-0d2d-446f-8b58-16a374d91173")
-	)
-	(wire
-		(pts
 			(xy 98.044 105.41) (xy 97.79 105.41)
 		)
 		(stroke
@@ -2808,56 +2733,6 @@
 			(type solid)
 		)
 		(uuid "3c809ea8-2c9c-454c-bca1-c04ea24ae6a7")
-	)
-	(wire
-		(pts
-			(xy 186.69 72.39) (xy 190.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44fb5a9d-2142-4b50-965e-cf86185e55ef")
-	)
-	(wire
-		(pts
-			(xy 186.69 67.31) (xy 190.5 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "465d1e04-fc85-41a3-8b6f-2fcd87ecfeae")
-	)
-	(wire
-		(pts
-			(xy 200.66 29.21) (xy 207.01 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46bac2b2-8bf3-4783-a582-c8e11fa45390")
-	)
-	(wire
-		(pts
-			(xy 212.09 97.79) (xy 212.09 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d26a05-13a0-406d-9133-bfaf349c1c25")
-	)
-	(wire
-		(pts
-			(xy 186.69 29.21) (xy 190.5 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "492610c7-329f-493d-8e9f-15a1b5dd4335")
 	)
 	(wire
 		(pts
@@ -2941,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 72.39) (xy 204.47 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53249ffb-67f3-4b9c-b8a7-b8af72532bb8")
-	)
-	(wire
-		(pts
 			(xy 242.57 107.95) (xy 242.57 109.22)
 		)
 		(stroke
@@ -2958,16 +2823,6 @@
 			(type default)
 		)
 		(uuid "53507703-59f9-4420-8e4f-91b56a66dfe9")
-	)
-	(wire
-		(pts
-			(xy 186.69 114.3) (xy 190.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572e70cd-0f1a-4130-96f2-21d8573f59a1")
 	)
 	(wire
 		(pts
@@ -2991,16 +2846,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 72.39) (xy 204.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e5092d-51de-4572-9612-96ba49bc2cb5")
-	)
-	(wire
-		(pts
 			(xy 90.17 110.49) (xy 98.044 110.49)
 		)
 		(stroke
@@ -3008,26 +2853,6 @@
 			(type solid)
 		)
 		(uuid "5a765c98-45b7-4f01-ad13-d6170a66a501")
-	)
-	(wire
-		(pts
-			(xy 200.66 114.3) (xy 204.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cec68ae-7f2a-4475-ae55-7f18a1946523")
-	)
-	(wire
-		(pts
-			(xy 200.66 110.49) (xy 204.47 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf828fe-2bb8-49c9-8e57-f9563bb8be8e")
 	)
 	(wire
 		(pts
@@ -3071,16 +2896,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 105.41) (xy 190.5 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c1f568-3cf7-417f-b976-4016d81f668a")
-	)
-	(wire
-		(pts
 			(xy 134.62 193.04) (xy 139.7 193.04)
 		)
 		(stroke
@@ -3088,36 +2903,6 @@
 			(type solid)
 		)
 		(uuid "6612e848-c093-4e70-9b59-c49d2db44052")
-	)
-	(wire
-		(pts
-			(xy 212.09 118.11) (xy 212.09 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d6d11a-f9bf-4ad1-b130-43dc26673f11")
-	)
-	(wire
-		(pts
-			(xy 212.09 21.59) (xy 212.09 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "670cff70-ce22-4b60-9534-312a7cdb75e1")
-	)
-	(wire
-		(pts
-			(xy 204.47 110.49) (xy 204.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687c658b-76c3-4612-aeff-3b58f6a8f11b")
 	)
 	(wire
 		(pts
@@ -3191,26 +2976,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 34.29) (xy 204.47 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777d87dc-a41a-43d6-b7bc-98980fa5c359")
-	)
-	(wire
-		(pts
-			(xy 200.66 152.4) (xy 204.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7845525a-151d-486c-8651-ccc73ca95387")
-	)
-	(wire
-		(pts
 			(xy 234.95 31.75) (xy 242.57 31.75)
 		)
 		(stroke
@@ -3221,16 +2986,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 148.59) (xy 204.47 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a49523f-fcef-4412-8855-38f194277bec")
-	)
-	(wire
-		(pts
 			(xy 54.61 64.77) (xy 52.07 64.77)
 		)
 		(stroke
@@ -3238,16 +2993,6 @@
 			(type solid)
 		)
 		(uuid "7a89b976-5e8a-4d7d-b981-2ca905f7454a")
-	)
-	(wire
-		(pts
-			(xy 200.66 105.41) (xy 207.01 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f25a305-4315-4d45-b5d0-6ff22170f6de")
 	)
 	(wire
 		(pts
@@ -3321,16 +3066,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 204.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a97324-800f-4a7f-9f54-af185851d49a")
-	)
-	(wire
-		(pts
 			(xy 234.95 146.05) (xy 242.57 146.05)
 		)
 		(stroke
@@ -3391,16 +3126,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 143.51) (xy 190.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9116dd43-c669-4018-bac1-d9570ace145d")
-	)
-	(wire
-		(pts
 			(xy 64.77 185.42) (xy 62.23 185.42)
 		)
 		(stroke
@@ -3438,16 +3163,6 @@
 			(type solid)
 		)
 		(uuid "98750e52-f0fb-40ba-8b90-0425a7c9f9e2")
-	)
-	(wire
-		(pts
-			(xy 186.69 76.2) (xy 190.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992cf791-694a-4951-8a93-80286df02bd0")
 	)
 	(wire
 		(pts
@@ -3551,16 +3266,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 110.49) (xy 207.01 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad9382ad-cc11-4739-9265-f639f87ccac3")
-	)
-	(wire
-		(pts
 			(xy 151.13 107.95) (xy 151.13 105.41)
 		)
 		(stroke
@@ -3568,16 +3273,6 @@
 			(type solid)
 		)
 		(uuid "b349b6e1-f710-4d8f-9e85-bb324270cbd7")
-	)
-	(wire
-		(pts
-			(xy 204.47 148.59) (xy 204.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e74e60-dea0-48b6-bd18-6d430b888a96")
 	)
 	(wire
 		(pts
@@ -3611,26 +3306,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 59.69) (xy 212.09 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac8f788-f521-4ee9-89d8-90f73cba2f3e")
-	)
-	(wire
-		(pts
-			(xy 200.66 67.31) (xy 207.01 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb293adf-f4b6-4820-804e-2de243546930")
-	)
-	(wire
-		(pts
 			(xy 97.79 67.31) (xy 97.79 69.85)
 		)
 		(stroke
@@ -3638,16 +3313,6 @@
 			(type solid)
 		)
 		(uuid "bd8724ea-bca4-47fd-aa5a-7480b572b808")
-	)
-	(wire
-		(pts
-			(xy 186.69 148.59) (xy 190.5 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0ae607-493a-4dd3-85b2-4b62276f46ab")
 	)
 	(wire
 		(pts
@@ -3671,16 +3336,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 41.91) (xy 212.09 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1007c60-9d8e-4550-81b2-64ba5be0d7dd")
-	)
-	(wire
-		(pts
 			(xy 242.57 146.05) (xy 242.57 147.32)
 		)
 		(stroke
@@ -3688,26 +3343,6 @@
 			(type default)
 		)
 		(uuid "c32807b2-a635-4104-af08-d53040bf577c")
-	)
-	(wire
-		(pts
-			(xy 186.69 38.1) (xy 190.5 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36957c2-6540-4361-9d70-ba2c2e4df586")
-	)
-	(wire
-		(pts
-			(xy 186.69 34.29) (xy 190.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c384a03c-9b44-4837-beb4-619bd9ced8fc")
 	)
 	(wire
 		(pts
@@ -3748,16 +3383,6 @@
 			(type solid)
 		)
 		(uuid "ce0a2053-1e34-44b4-8db1-cd5394dfa6f8")
-	)
-	(wire
-		(pts
-			(xy 212.09 135.89) (xy 212.09 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf2c98cd-1ebf-437e-919f-b677ed49d47b")
 	)
 	(wire
 		(pts
@@ -3821,16 +3446,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 152.4) (xy 190.5 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc18f19b-b61a-4175-b819-2d4e01f303f1")
-	)
-	(wire
-		(pts
 			(xy 54.61 77.47) (xy 52.07 77.47)
 		)
 		(stroke
@@ -3848,16 +3463,6 @@
 			(type solid)
 		)
 		(uuid "e423ecc8-7c63-4a23-a77f-31f8cbd77be0")
-	)
-	(wire
-		(pts
-			(xy 200.66 143.51) (xy 207.01 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53baafe-c1ea-4bc9-8f47-90505b958e61")
 	)
 	(wire
 		(pts
@@ -3911,16 +3516,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 110.49) (xy 190.5 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef8a9275-6ba8-447e-83da-7fd95fcecfb9")
-	)
-	(wire
-		(pts
 			(xy 97.79 146.05) (xy 90.17 146.05)
 		)
 		(stroke
@@ -3971,16 +3566,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 148.59) (xy 207.01 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90cfdd6-8e01-4686-b1bc-fc406fb9e02a")
-	)
-	(wire
-		(pts
 			(xy 119.38 184.15) (xy 124.46 184.15)
 		)
 		(stroke
@@ -4008,6 +3593,54 @@
 			(type default)
 		)
 		(uuid "fd6b3edb-4b27-40d0-a6b1-3812098e2c20")
+	)
+	(global_label "LED_CAN3"
+		(shape bidirectional)
+		(at 222.25 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "1802470c-8362-44aa-8a99-1324e9054808")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.767 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_CAN1"
+		(shape bidirectional)
+		(at 222.25 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "24903ffe-013e-425e-8941-dd42572f0dd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.767 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
@@ -4153,6 +3786,30 @@
 			)
 		)
 	)
+	(global_label "LED_CAN0"
+		(shape bidirectional)
+		(at 222.25 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "4ed2243e-2965-40be-8cd3-5f071c7e723c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.767 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CAN3_H"
 		(shape bidirectional)
 		(at 82.55 193.04 0)
@@ -4198,54 +3855,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "CAN0_L"
-		(shape bidirectional)
-		(at 186.69 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "559225ee-2633-4e20-b28e-bb9b3f1e1366")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9194 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CAN2_L"
-		(shape bidirectional)
-		(at 186.69 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "56f42962-210f-4206-8b00-f04e023d14a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9194 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -4321,30 +3930,6 @@
 			)
 		)
 	)
-	(global_label "CAN2_H"
-		(shape bidirectional)
-		(at 186.69 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "5e7692ef-5001-475b-aa59-06e87c1e2a4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.623 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CAN1_L"
 		(shape bidirectional)
 		(at 62.23 187.96 180)
@@ -4393,30 +3978,6 @@
 			)
 		)
 	)
-	(global_label "CAN3_H"
-		(shape bidirectional)
-		(at 186.69 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "688a3b6b-c1ff-427a-8391-a33af0cd977a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.623 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CAN0_EN"
 		(shape bidirectional)
 		(at 92.71 39.37 0)
@@ -4454,78 +4015,6 @@
 		(uuid "6cb49e30-ec4b-4c72-8202-b3a31a3ecad5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.1733 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CAN0_H"
-		(shape bidirectional)
-		(at 186.69 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "7013e8a7-f576-4202-932e-c6fd66e42027")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.623 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CAN1_H"
-		(shape bidirectional)
-		(at 186.69 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "735ec986-4d79-417c-9fd3-ef44bb9c1699")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.623 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CAN3_L"
-		(shape bidirectional)
-		(at 186.69 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "767329ff-92f8-4567-a0ef-71b277219cee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9194 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,6 +4239,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LED_CAN2"
+		(shape bidirectional)
+		(at 222.25 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "a8f82b18-6f5d-4a4c-9e94-e92703786a01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.767 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5017,30 +4530,6 @@
 			)
 		)
 	)
-	(global_label "CAN1_L"
-		(shape bidirectional)
-		(at 186.69 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "eeaf8af5-9ea4-4625-9dc9-ad46454253d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9194 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CAN0_H"
 		(shape bidirectional)
 		(at 115.57 29.21 0)
@@ -5066,84 +4555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:+12V")
-		(at 212.09 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc1cd11-0007-47d3-b2a9-46646eebab9d")
-		(property "Reference" "#PWR047"
-			(at 212.09 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 212.09 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23bb3487-8c32-4342-ba80-d43ee1954dc0")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 229.87 107.95 0)
 		(unit 1)
@@ -5165,7 +4576,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 237.998 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,84 +4642,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 212.09 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "198a1030-7618-4ca1-9fe5-47bccccb4b8f")
-		(property "Reference" "#GND083"
-			(at 212.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 159.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99be573d-b8a5-4a32-9695-a9ced9f1a4ba")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#GND083")
 					(unit 1)
 				)
 			)
@@ -5471,192 +4804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 212.09 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21a053ed-29a7-463f-810f-3a541693576c")
-		(property "Reference" "#GND080"
-			(at 212.09 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "079451a3-cbb4-4829-adfb-2ac3d1a4845b")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#GND080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:OPA197IDR")
-		(at 214.63 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "220f12d8-c8cb-46a0-bd5b-0937aab47885")
-		(property "Reference" "U9"
-			(at 219.964 24.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 219.964 26.924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 215.9 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 215.9 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 214.63 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 214.63 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "13e2a791-8ff4-415a-aa8e-cec1373de3f4")
-		)
-		(pin "2"
-			(uuid "ec10924e-2046-4831-b436-ea6eaf4fe80e")
-		)
-		(pin "4"
-			(uuid "d8923421-de10-4e69-b98a-0a1252f924fb")
-		)
-		(pin "3"
-			(uuid "8e93b030-6333-490e-89c6-939db420b885")
-		)
-		(pin "7"
-			(uuid "1795e2f6-bef0-4f74-bf3d-4541f5133e69")
-		)
-		(pin "1"
-			(uuid "4d31ea6d-6185-49b0-9b5a-846aa2659d87")
-		)
-		(pin "5"
-			(uuid "d0a52733-29a1-4fe6-b7fd-a04975ead0c2")
-		)
-		(pin "8"
-			(uuid "dfd92ae1-7094-47e8-b4fc-5b32e8105d82")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 229.87 31.75 0)
 		(unit 1)
@@ -5678,7 +4825,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 237.998 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,99 +5125,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#GND072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "336f4bed-48c8-4cee-82f0-5ec3e3387e0a")
-		(property "Reference" "R58"
-			(at 187.96 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.12 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 195.58 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "19f57a6e-abec-4e09-963c-a87fd0d17a48")
-		)
-		(pin "1"
-			(uuid "2a823442-8a6d-47ea-809c-2d175b36c99d")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -6512,207 +5566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "491578ce-457a-45c4-9128-3f9f72cc633a")
-		(property "Reference" "R50"
-			(at 187.96 28.702 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 28.702 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "d7e58a2e-06b6-4c11-beb0-26fc36b60486")
-		)
-		(pin "2"
-			(uuid "7ed6a952-95fb-485b-8185-8546646ce825")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:OPA197IDR")
-		(at 214.63 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cc3113a-1d45-4f00-a401-732e5301a5cd")
-		(property "Reference" "U11"
-			(at 219.964 100.584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 219.964 103.124 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 215.9 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 215.9 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 214.63 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 214.63 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "8f129b3b-898b-4ae1-9882-c838bb42b395")
-		)
-		(pin "2"
-			(uuid "7390fb14-1ae0-4546-9245-a381f5457068")
-		)
-		(pin "4"
-			(uuid "5fd9be33-1ca0-4c10-a753-7e4126da3544")
-		)
-		(pin "3"
-			(uuid "9878d2bf-2512-483c-97fd-844968cbc349")
-		)
-		(pin "7"
-			(uuid "44a54b71-a6d4-4dbd-b02f-4a41655b6ddb")
-		)
-		(pin "1"
-			(uuid "25222757-3aa2-48cb-bee4-010ef291d052")
-		)
-		(pin "5"
-			(uuid "94b2280d-8b94-4a94-912e-25e697f71d10")
-		)
-		(pin "8"
-			(uuid "16bc4d16-72c7-46bd-9aa2-57c46fe614e1")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:+12V")
 		(at 163.83 29.21 0)
 		(unit 1)
@@ -6984,84 +5837,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:+12V")
-		(at 212.09 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3fbb24-46a6-45cd-ad52-4d049f445c72")
-		(property "Reference" "#PWR049"
-			(at 212.09 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 212.09 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9111ef54-cda3-40f7-8278-f67852d1355d")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0402")
 		(at 138.43 74.93 0)
 		(unit 1)
@@ -7269,7 +6044,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 237.998 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,207 +6458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:OPA197IDR")
-		(at 214.63 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64373cce-58a8-483d-8973-13139e001456")
-		(property "Reference" "U10"
-			(at 219.964 62.484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 219.964 65.024 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 215.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 215.9 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 214.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 214.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "a5f76715-0f6d-43db-8eee-913a8886c381")
-		)
-		(pin "2"
-			(uuid "0da7f938-1737-4721-8233-c01e75009a44")
-		)
-		(pin "4"
-			(uuid "ef015d0f-6045-4e10-99d8-efae7bcf68ca")
-		)
-		(pin "3"
-			(uuid "7661af4d-19ce-4056-8672-218d823cbfc8")
-		)
-		(pin "7"
-			(uuid "2f39e752-9b62-4ec0-9bb1-c1c394b2a8da")
-		)
-		(pin "1"
-			(uuid "b071c5e4-5bd1-4c12-8069-ea493e0d424a")
-		)
-		(pin "5"
-			(uuid "99618669-f582-4b12-81d4-80a7198864af")
-		)
-		(pin "8"
-			(uuid "176a6d3d-dea2-4f18-b38f-95ed866012ac")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 38.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6771f7f2-fc5e-4c70-9fee-b1af0d5b2e3e")
-		(property "Reference" "R52"
-			(at 187.96 37.846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.12 37.846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 195.58 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "aba10755-594a-4853-8ad4-33cffb248221")
-		)
-		(pin "1"
-			(uuid "3f5109fe-0b2d-498d-ad37-f2275503d158")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0402")
 		(at 151.13 113.03 0)
 		(unit 1)
@@ -8133,99 +6707,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72b1e2ad-0208-494d-b9d7-3b365a2689c0")
-		(property "Reference" "R51"
-			(at 187.96 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "0dfa84ae-7caf-4399-acdd-89da588aa068")
-		)
-		(pin "2"
-			(uuid "2b071928-fde1-4627-a390-97b5cf032c29")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_GND")
 		(at 72.39 52.07 0)
 		(unit 1)
@@ -8298,84 +6779,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#GND064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 212.09 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75f2ba90-b415-4fac-b0a8-1f3778701887")
-		(property "Reference" "#GND081"
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 82.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1168cb77-8111-464e-8ae1-20b6d9a9c6a8")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#GND081")
 					(unit 1)
 				)
 			)
@@ -8802,99 +7205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "831cd29b-4e32-4c5d-8f61-fdb518271db4")
-		(property "Reference" "R59"
-			(at 187.96 143.002 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 143.002 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "9c200846-7478-40f5-8cdc-7de1b46e6095")
-		)
-		(pin "2"
-			(uuid "407678e2-3bd8-449a-8d58-3bac2d79f2ff")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:+12V")
 		(at 163.83 143.51 0)
 		(unit 1)
@@ -9308,7 +7618,6 @@
 				)
 			)
 		)
-
 		(pin "8"
 			(uuid "4a8d2d52-36d9-4bcc-9a8f-f9faa510a209")
 		)
@@ -9451,85 +7760,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:+5V")
-		(at 186.69 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d01672f-edaa-43a4-8db8-6c2f394937d6")
-		(property "Reference" "#PWR042"
-			(at 190.5 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 182.88 38.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebc412f6-ab33-44ab-aab4-47b0c136a5d1")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9701,192 +7931,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9259eb26-fb5b-4d8d-8b78-75fcf88d26bd")
-		(property "Reference" "R55"
-			(at 187.96 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.12 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 195.58 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "54c20ebc-b263-49af-b92b-5901004fae7f")
-		)
-		(pin "1"
-			(uuid "e90c9e25-21a3-49d4-a255-730624aebef3")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93296e6b-77d4-4be7-ac7e-08b8ba077642")
-		(property "Reference" "R57"
-			(at 187.96 109.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 109.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "bd07cdf5-5e77-4788-8dbe-80ae15681e36")
-		)
-		(pin "2"
-			(uuid "9ae2f3a5-6a81-473e-a2a6-496116eeefd5")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -10356,114 +8400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:OPA197IDR")
-		(at 214.63 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e576fbe-7df5-4042-bc80-8ba63217e981")
-		(property "Reference" "U12"
-			(at 219.964 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 219.964 141.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 215.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 215.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 214.63 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 214.63 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "1611f54b-442f-4aa8-bcc1-309104fd228b")
-		)
-		(pin "2"
-			(uuid "1514dcca-ebd7-42c1-98f0-1e550b6774be")
-		)
-		(pin "4"
-			(uuid "6d3c6273-91d7-406c-924f-0d9fafc2dd13")
-		)
-		(pin "3"
-			(uuid "5a114dfa-369f-4075-8d50-0fe02b4cc666")
-		)
-		(pin "7"
-			(uuid "c374e574-264f-4e07-ac29-3b3321b45bea")
-		)
-		(pin "1"
-			(uuid "0146f826-8cee-4a01-9792-0b7a4bccb9d0")
-		)
-		(pin "5"
-			(uuid "f09fba65-b348-4c91-9e36-280421463ff6")
-		)
-		(pin "8"
-			(uuid "7c40a41c-801f-4704-a207-1f36d685fc59")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:+5V")
 		(at 52.07 24.13 0)
 		(unit 1)
@@ -10536,178 +8472,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a6b81707-9b64-4fd4-99a1-07545c64d69b")
-		(property "Reference" "R60"
-			(at 187.96 148.082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 148.082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "c93c2f99-37f8-4b26-a813-8b7c07ed2e26")
-		)
-		(pin "2"
-			(uuid "a0eff1a7-bc98-4b71-bc7f-91d412441f91")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:+5V")
-		(at 186.69 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8f554f7-769e-4419-9d3f-53a8012e10f6")
-		(property "Reference" "#PWR043"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 182.88 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e568d1f4-06da-4c87-b7f6-468d0e30f559")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10900,256 +8664,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#GND067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:+5V")
-		(at 186.69 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb045b8-fbd0-4e08-b9a4-9454da1af9ce")
-		(property "Reference" "#PWR044"
-			(at 190.5 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 182.88 114.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "160c5780-88ae-4b3f-8f50-e66637004aab")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:+12V")
-		(at 212.09 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b06f0895-6b86-4526-92d3-fa1220d042e5")
-		(property "Reference" "#PWR046"
-			(at 212.09 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 212.09 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da2baa72-426f-417a-bd5c-0ed0952d1036")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3c9a40a-e2de-44fa-a7ef-2cf7ea447c32")
-		(property "Reference" "R54"
-			(at 187.96 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "c2505d56-c5b6-40cc-a0c4-28cdf06b4fa9")
-		)
-		(pin "2"
-			(uuid "8fe3efd2-672c-46f2-b64e-a159a6ac4fef")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -11670,99 +9184,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bcae0fc2-b8d9-44ac-8b12-aaeb534faa7b")
-		(property "Reference" "R61"
-			(at 187.96 152.146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.12 152.146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 195.58 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "734fa5c0-a7cc-4a6d-b8ed-267744fdff66")
-		)
-		(pin "1"
-			(uuid "e165b9fd-e834-431e-8217-4f761b1e268d")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -12664,178 +10085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de90f593-35f2-484c-99f7-2075f547a90a")
-		(property "Reference" "R53"
-			(at 187.96 66.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 66.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "1529c976-65f7-47f0-b350-329c774d87bd")
-		)
-		(pin "2"
-			(uuid "f3616d14-f218-4c3c-ba02-8ad8edf899f3")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:+5V")
-		(at 186.69 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e37c0fb7-8912-488d-a169-51d44c12cf9b")
-		(property "Reference" "#PWR045"
-			(at 190.5 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 182.88 152.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 186.69 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e419d44-8b2a-4937-b266-230a1e0a8d46")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_C0402")
 		(at 163.83 74.93 0)
 		(unit 1)
@@ -13101,99 +10350,6 @@
 	)
 	(symbol
 		(lib_id "pcbgolf:comma.ai_11112255_R0402")
-		(at 195.58 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e88cae2a-0a36-40d4-b07c-1f3e607af29b")
-		(property "Reference" "R56"
-			(at 187.96 104.902 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 104.902 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pcbgolf:0402-R"
-			(at 195.58 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 195.58 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "2a6db560-e998-42ac-93ea-b60f553d9594")
-		)
-		(pin "2"
-			(uuid "0441b47f-810e-440d-9c8a-4125afaf9f27")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_R0402")
 		(at 129.54 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -13280,84 +10436,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:+12V")
-		(at 212.09 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec8979fe-4d00-42b8-a4c7-560b70478344")
-		(property "Reference" "#PWR048"
-			(at 212.09 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 212.09 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f19890b-19ed-4f2c-9ffc-fb432e2ce3f1")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13478,7 +10556,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 237.998 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13934,84 +11012,6 @@
 			(project "pcbgolf"
 				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
 					(reference "#GND085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 212.09 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f84cd9b8-5eb2-41e0-b635-0697bf30dbc1")
-		(property "Reference" "#GND082"
-			(at 212.09 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 120.904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2317dd7-8b82-4be1-9e2e-1d598e9a1a8e")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/7c541c6a-62a4-4357-a0e8-aeef7c35d5a0"
-					(reference "#GND082")
 					(unit 1)
 				)
 			)

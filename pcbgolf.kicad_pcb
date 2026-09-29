@@ -160,6 +160,12 @@
 		(path "/7866112d-6f71-4598-98c7-45d5c6f6a4ca")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -404,6 +410,17 @@
 		(path "/09691014-1c1d-4e88-878a-46062906a4eb")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "46" "10" "5" "52" "57" "24" "64" "43" "25" "62" "44" "59" "58"
+					"40" "41" "19" "45" "61" "60" "63" "42" "13" "PAD" "2" "1" "51" "50"
+					"29" "28" "4" "3" "49" "48" "26" "27" "7" "6" "47" "34" "23" "22" "9"
+					"8" "33" "32" "20" "21" "12" "11" "31" "18" "30" "35" "54" "53" "17"
+					"16" "39" "38" "56" "55" "15" "14" "36" "37"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.5 -4.5)
@@ -1371,6 +1388,12 @@
 		(path "/272adf6d-174b-474f-bd0b-91a76bce7fc1")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -1616,6 +1639,12 @@
 		(path "/97cd38d2-c541-4978-b5ef-095974646237")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -1792,251 +1821,6 @@
 	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
-		(uuid "02fc212c-f599-4927-b5e8-95af7b90d046")
-		(at 136.1494 58.6949)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R53"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c51495fb-8b58-41b4-a2ca-83aba8af5a0d")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d5ed740-b3c1-4552-bc91-dff7963acfe9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60b17705-9467-49a5-8a24-3efd350368ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9f3a084-c77b-4a80-a3d0-7803c315de27")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23d56e98-b65d-4650-bcb0-3483687badcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/de90f593-35f2-484c-99f7-2075f547a90a")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b4d6ae76-ea11-4c9e-8c6e-105659f6085e")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9c30bcec-e262-4186-9804-c470405c288b")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5539a3e5-1999-4e76-a042-677b3efd33e8")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8667617b-9137-4683-b531-be7e1b1c4f37")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "b12db4fe-dd18-4d7a-bf64-18919af9e18a")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5e8e5c5e-df23-47de-b62b-22dedaf0c780")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "57bf9a7c-c4fa-4a24-aaef-efbd363a8119")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "324b42a3-1d43-4245-801e-cc54bfbc7140")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8a75241f-b1f3-43a7-bfed-6399513462cb")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "530cdc3f-6fab-4dd8-b3ef-7c52d36aac46")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2ef2e93c-ad91-4dae-884a-656c4d5270ed")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "0aa1130d-77a3-4fe2-976f-707857896a86")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "65616c59-fec5-43e4-a1a4-4cfb5723bf87")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN1_H")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "d9b4cf5c-be88-4f86-9041-f7c38dc9e434")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U10-+)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "f91c0c16-2284-43e7-a6b5-5d8c4d6ab0f0")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
 		(uuid "038c0c64-0bc8-4451-8dc0-3ca483af93fb")
 		(at 127.159 58.6949)
 		(descr "RESISTOR\n\nchip")
@@ -2106,6 +1890,12 @@
 		(path "/b2127bcf-3158-4144-bba2-65a7ebb605de")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -2351,6 +2141,12 @@
 		(path "/4d4dba3d-7c86-4b9b-883d-15efe22e53d5")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -2596,6 +2392,12 @@
 		(path "/e8fe68e3-ae85-4724-aeb7-445cb754973f")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -2789,7 +2591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2841,6 +2643,12 @@
 		(path "/56dd1930-c3a2-4b93-b8ce-50a063046ad3")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -2982,7 +2790,7 @@
 			(at -0.45 0)
 			(size 0.6 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(R65-Pad1)")
+			(net "LED_CAN3")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -3086,6 +2894,12 @@
 		(path "/b64449ee-bec3-4382-bf01-fe051223149c")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -3260,251 +3074,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "06e605c2-ea69-4ccf-9312-6bedb001c02f")
-		(at 136.1494 72.8839)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R60"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b617c0a5-d491-4d22-8f6e-392d55edbcd0")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d858ec1f-6fbb-49b3-addf-d1580899e906")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7e085ed-27f5-404a-8050-21162e1718ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56f7f5da-5b21-48f6-89e8-feace98ffb14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5973e5b-60c7-488c-80d8-5f176d0d66fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/a6b81707-9b64-4fd4-99a1-07545c64d69b")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75b219e2-0f33-4e44-a822-de1924a22c72")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "637c513b-5908-495c-a884-1945c431eb1c")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "105eec06-ce33-4b6a-872c-eb57bb1d0aa5")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5871686a-27e3-457c-9355-d5549145ab93")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "8213b5f2-f573-4179-94aa-b38a22a463b9")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "adeb6660-2ec5-4cac-8c52-6d4c18c90dca")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c291de43-5f51-40ae-8dd0-690ae83f22de")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8cf16ae5-db75-4474-8a17-836bb109aedd")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "60c64cc2-3932-4cad-9a4f-c9dc4cedbd77")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8cbf7e67-e160-45fc-96ba-d729db3242b9")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc725ace-20de-4a65-8ac5-fe3918956855")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "d1d0e513-4204-4ee9-b635-8cb85c4af679")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "aed3737e-8fc9-468c-a4ca-033af1aa6df3")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN3_L")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "c3ff291c-764a-4609-bb6e-af1331d0f39e")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U12--)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "8a63400f-7061-4ea0-8d4d-dfa708c591ce")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:0402-C"
 		(layer "F.Cu")
 		(uuid "077a21ed-c89d-4e00-b34e-85f3390f3363")
@@ -3576,6 +3145,12 @@
 		(path "/e45d212a-74be-4a70-9d17-edbd7fc0ef72")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -3821,6 +3396,12 @@
 		(path "/da7256b5-da12-4e91-bd4d-563689041106")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -4066,6 +3647,12 @@
 		(path "/cab2ed3e-5954-46b3-acac-5cdeba9d8b36")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -4311,6 +3898,12 @@
 		(path "/66bf6dfa-ea06-42c7-9509-fc80727f402f")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -4556,6 +4149,12 @@
 		(path "/f21ac0a8-98e0-47be-967f-c36d9e68f37e")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -4801,6 +4400,12 @@
 		(path "/fbfbb0aa-ab3d-47cc-a093-f2ed63831e40")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -5086,6 +4691,14 @@
 		(path "/ef7619ce-6fb7-4e52-8f43-64315a383dac")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "9" "10" "11" "12" "13" "14" "15" "1" "17" "18" "4" "5" "6" "7"
+					"8" "19" "20" "2" "3" "16" "PAD"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -2)
@@ -5525,6 +5138,12 @@
 		(path "/40fa1876-73c4-4964-96e8-062dbb902cc0")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -5718,7 +5337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5770,6 +5389,12 @@
 		(path "/f01e5f74-b3d0-413a-a5fe-de94841f0bcf")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -5911,7 +5536,7 @@
 			(at -0.45 0)
 			(size 0.6 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(R63-Pad1)")
+			(net "LED_CAN1")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -6015,6 +5640,12 @@
 		(path "/b147cd1c-22b2-46c0-8b2f-15ce5b033462")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -6260,6 +5891,12 @@
 		(path "/75586c9d-1919-4126-abd3-c93598be66c7")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -6505,6 +6142,12 @@
 		(path "/b99ba56f-6306-4569-a332-5cbb7ffb65c6")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -6849,6 +6492,12 @@
 		(path "/475c4316-83aa-4296-b1bd-428120040067")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -7042,6 +6691,12 @@
 		(path "/8b42096a-da7c-42cc-a7b4-832c0fc2a22f")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2" "PAD" "5" "7" "6" "8")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4986 -1.016)
@@ -7307,6 +6962,12 @@
 		(path "/655d7288-9401-4bca-804f-752a5144fe64")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -7552,6 +7213,12 @@
 		(path "/a63277c8-02c3-4eb8-928b-c41cceaa6811")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -7797,6 +7464,12 @@
 		(path "/9912dd96-3aa3-423a-8422-a93069098d1d")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -8042,6 +7715,12 @@
 		(path "/e37cbc96-37c0-4634-97de-3bba1aa3c748")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -8286,6 +7965,14 @@
 		(path "/0c37d6d0-8e42-41db-8944-056fa3ebc651")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "9" "10" "11" "12" "13" "14" "15" "1" "17" "18" "4" "5" "6" "7"
+					"8" "19" "20" "2" "3" "16" "PAD"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -2)
@@ -8725,6 +8412,12 @@
 		(path "/70ddd9bb-1239-4e72-872d-a7f4bef9bc3a")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -8970,6 +8663,12 @@
 		(path "/98f1badc-c7ad-4e1d-a762-16b385a68790")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -9144,251 +8843,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "1f54830c-0526-4a18-9ab7-2a5850f82327")
-		(at 136.1494 62.7489)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R55"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "580e09ce-5275-48c4-9029-5298a8bf83f2")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14263777-0512-4b86-a56c-f51c042a9f3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d5414fd-3d2c-4e40-8059-ab8f532c8c82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e76702c-012c-4129-b030-ec918f08f8fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0f077c8-e3b2-49b3-859f-09c1cbdb6952")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/9259eb26-fb5b-4d8d-8b78-75fcf88d26bd")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3fb445a3-c69d-4b0f-bbc3-db20ca761edb")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df071e31-436b-4071-a354-1141df772c58")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "38745593-5d71-43a6-a800-0bb109b27877")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e05e2c18-245c-4078-aad6-404b6fe095c5")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "161d94ef-385b-4217-b155-779969b2d98c")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e0f1564d-9ca5-437b-bc4f-6ff45d5b6b4f")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5615456b-708e-4413-be70-be81b3131d55")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "567791e4-ba54-455c-92f5-1f24ece81d27")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6d659f04-1d32-4ee8-8967-4071f31f3658")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "55b21dae-7aa8-4359-9f3b-8228616f09f4")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b556c8c4-eb6b-4d30-85a5-ae01d7d36f4d")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "b94c63a8-3992-4b49-866f-1b0bfd462d8f")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "373be5e4-71f3-4d70-ac03-53a5ee288cea")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U10--)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "8571d8ee-1877-4b86-b589-c9f8caaaa560")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "cbe922f5-6a9a-4d1b-8fab-944dfeb89b64")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:SOT23-5"
 		(layer "F.Cu")
 		(uuid "20f0bf5f-9df9-4ff4-af5c-a400beb1e88e")
@@ -9460,6 +8914,12 @@
 		(path "/bbfec5a0-de8c-4b41-9bb8-88959c45afc1")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -9745,6 +9205,16 @@
 		(path "/0c427e5e-18ca-496f-b652-81c78c7d8d64")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A4" "A9" "A5" "A2" "A3" "A11" "A10" "A6" "A7" "A8" "A1" "A12"
+					"S1B" "S2T" "S2B" "S1TH" "S2TH" "S1T" "B4" "B4T" "B9T" "B9" "B5" "B5T"
+					"B11" "B11T" "B10T" "B10" "B2T" "B2" "B3T" "B3" "B7" "B7T" "B6T" "B6"
+					"B8T" "B8" "B1T" "B1" "B12" "B12T" "S3B" "S3T" "S3TH" "S4B" "S4T" "S4TH"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.6 -1)
@@ -10529,6 +9999,12 @@
 		(path "/c2050acc-28c6-4e8d-89d3-6f274aad1caf")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -10774,6 +10250,12 @@
 		(path "/a71ad059-79ce-4613-af4c-ac5348a20ea6")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -11119,6 +10601,12 @@
 		(path "/6471ed8b-5b55-44b3-83de-b21eca66f91c")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -11405,6 +10893,12 @@
 		(path "/f22b4508-7e5c-4c45-9fc8-c03730ee26d4")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -11650,6 +11144,12 @@
 		(path "/be5b911e-7d24-4e9f-94cc-56790463c6fd")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -11895,6 +11395,12 @@
 		(path "/429de3c4-8d50-4c69-b4f0-61f548de2f88")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -12240,6 +11746,12 @@
 		(path "/bc6b12a1-8767-431b-b0bd-e987e7682ef4")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -12485,6 +11997,12 @@
 		(path "/12fada47-f53b-44b1-ba2b-4efaf7076eee")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -12729,6 +12247,12 @@
 		(path "/26f18e30-4d25-4ebb-ae4c-1a9fbd69b236")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -12913,6 +12437,12 @@
 		(path "/73d80abd-7f1e-469e-a125-405fc6e8a493")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -13158,6 +12688,12 @@
 		(path "/37facf12-aebb-44b0-aa1e-a8931da96fa2")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -13402,6 +12938,12 @@
 		(path "/844feaaf-fb4d-4883-9672-decd43249326")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -13595,6 +13137,23 @@
 		(path "/199532da-f141-4622-bc55-1b2e7f2d8cc3")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "27" "135" "15" "35" "142" "17" "25" "26" "86" "87" "88" "122"
+					"123" "124" "125" "126" "127" "20" "21" "22" "23" "24" "52" "53" "54"
+					"138" "139" "1" "2" "3" "4" "5" "57" "58" "59" "60" "61" "62" "63" "64"
+					"65" "68" "103" "140" "8" "7" "13" "19" "32" "42" "56" "71" "79" "92"
+					"104" "55" "41" "141" "12" "18" "33" "6" "118" "80" "128" "69" "89"
+					"106" "34" "119" "14" "129" "144" "91" "90" "36" "70" "105" "143" "16"
+					"37" "38" "39" "40" "43" "44" "45" "46" "97" "98" "99" "100" "101" "102"
+					"107" "108" "49" "50" "51" "130" "131" "132" "133" "134" "136" "137"
+					"66" "67" "72" "73" "74" "75" "28" "29" "30" "31" "47" "48" "93" "94"
+					"95" "96" "109" "110" "111" "9" "10" "11" "112" "113" "114" "115" "116"
+					"117" "120" "121" "76" "77" "78" "81" "82" "83" "84" "85"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14555,9 +14114,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3-PE7-Pad57)")
+			(net "LED_CAN0")
 			(pinfunction "PE7_57")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "5192182d-d3ca-4d39-b6a4-1332852aef18")
 		)
 		(pad "58" smd roundrect
@@ -14565,9 +14124,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3-PE8-Pad58)")
+			(net "LED_CAN1")
 			(pinfunction "PE8_58")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "6c24dd31-b4ac-4aa1-abe4-8ea22b704f55")
 		)
 		(pad "59" smd roundrect
@@ -14575,9 +14134,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3-PE9-Pad59)")
+			(net "LED_CAN2")
 			(pinfunction "PE9_59")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "1882b8db-9490-4c5d-a248-e5f6c5ec34d4")
 		)
 		(pad "60" smd roundrect
@@ -14585,9 +14144,9 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U3-PE10-Pad60)")
+			(net "LED_CAN3")
 			(pinfunction "PE10_60")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "dbd689e9-51de-4382-b3b3-d98faa2a08df")
 		)
 		(pad "61" smd roundrect
@@ -15514,6 +15073,12 @@
 		(path "/36268ead-7b7f-4dfd-a4d4-c923b31fd1f4")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -15758,6 +15323,12 @@
 		(path "/4e206457-d3fd-4487-b9b2-65fb9c502be6")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.65 -1.3)
@@ -15942,6 +15513,12 @@
 		(path "/ea22f58f-ec03-4c0f-947a-ac5534e0c192")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -16187,6 +15764,12 @@
 		(path "/4d4ec7ee-8af9-4821-b0ac-87fa6508bde9")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -16432,6 +16015,12 @@
 		(path "/9da7c858-4207-49cd-b0f1-8b35f64750fb")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -16677,6 +16266,12 @@
 		(path "/65719c79-b435-4c12-94a2-0ed5202854b6")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -16922,6 +16517,12 @@
 		(path "/4fe53aae-03b1-4e75-b850-a1a45d534872")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -17167,6 +16768,12 @@
 		(path "/5d94cc32-8e1a-41b0-a7d8-5dd9538f65c8")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -17412,6 +17019,12 @@
 		(path "/a84c57b9-36d4-41f7-9937-a5ca7f0c7406")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -17657,6 +17270,12 @@
 		(path "/e1c2d92f-0511-45e6-bba7-4ba1f1480c78")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -17902,6 +17521,12 @@
 		(path "/c485a9f4-2ddd-49a2-8df8-68ffd206f4e3")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -18095,7 +17720,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18147,6 +17772,12 @@
 		(path "/0e77cd9d-7fab-42da-98b6-e588c9032976")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -18288,7 +17919,7 @@
 			(at -0.45 0)
 			(size 0.6 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(R64-Pad1)")
+			(net "LED_CAN2")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -18392,6 +18023,12 @@
 		(path "/f5358038-83dd-4d75-8f0c-a9adb4027ba4")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -18636,6 +18273,12 @@
 		(path "/9009b66f-a3b7-457b-b65f-e7784317c9c5")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -18820,6 +18463,12 @@
 		(path "/99c3bb60-60b4-42b6-bd2b-afd4dec80bd9")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -19064,6 +18713,12 @@
 		(path "/4c7f7ab4-bdf9-4a3f-a9ee-24810df14249")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -19246,6 +18901,12 @@
 		(path "/f1261fa3-3c75-429d-adae-5cbc2c6939b9")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "PWR1" "GND" "GNDBREAK")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5 -3.5)
@@ -19749,6 +19410,12 @@
 		(path "/440ac933-7341-41a0-869a-afe61aff8b96")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -19994,6 +19661,12 @@
 		(path "/203bba1a-b3ed-4149-846b-48aebfe25e46")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -20239,6 +19912,12 @@
 		(path "/7c4165db-133c-436f-a155-fe74d911507e")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -20484,6 +20163,12 @@
 		(path "/e4e63906-79a0-4595-a318-c33be98b31fb")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -20728,6 +20413,12 @@
 		(path "/a3bf6b12-15cd-40f5-bdcf-8dda0356c330")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -20912,6 +20603,12 @@
 		(path "/8e7ad7cd-647c-45c6-9b67-a32cb10ea430")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -21157,6 +20854,12 @@
 		(path "/f78d50a4-3796-468c-8e1b-4394d14ce8a3")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -21402,6 +21105,12 @@
 		(path "/3d4ff678-ec2b-4926-b0ca-4c52b3bcf16e")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -21647,6 +21356,12 @@
 		(path "/43569406-17ab-44ce-9405-1c0b7bfc7634")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -21892,6 +21607,12 @@
 		(path "/8e699acb-0a1e-438c-b428-7fd3480a1f36")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -22137,6 +21858,12 @@
 		(path "/eb6a6c42-a7e5-4f49-ae18-6ca982cda05c")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -22311,414 +22038,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-		(layer "F.Cu")
-		(uuid "4ffd273c-9b31-46cd-9316-4f0b9f7b5c13")
-		(at 153.8552 63.5724)
-		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOIC SO")
-		(property "Reference" "U10"
-			(at 0 -3.4 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "76dc5bcb-6b5f-4885-ac49-b31bfbb9a597")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 0 3.4 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2c4499f-cecc-4dc4-b798-30a129a37736")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "990675ec-a281-4536-a427-16e20e4569ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df04ad51-611a-4c79-90ce-f1acba50a989")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e6f3d0e5-0c09-46f4-88a5-314482294474")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "750dc9d7-de57-4af1-99cc-de655d78b762")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/64373cce-58a8-483d-8973-13139e001456")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0 -2.56)
-			(end -1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fba4b15d-8613-4259-bbd7-6032a6c2b559")
-		)
-		(fp_line
-			(start 0 -2.56)
-			(end 1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d34849f-9e4e-41ae-9584-d7e4d039339c")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end -1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bae8e740-c736-49ce-b852-70c3f77a3ee2")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end 1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "564d9920-b606-413c-aaa4-c47170571079")
-		)
-		(fp_poly
-			(pts
-				(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "bd28ebb5-9651-4e52-9ecc-bfe8903df9dd")
-		)
-		(fp_line
-			(start -3.7 -2.7)
-			(end -3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "241d9609-d6a9-4bca-878d-a95b8b95d540")
-		)
-		(fp_line
-			(start -3.7 2.7)
-			(end 3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8caef831-c701-4bd3-9ecb-da52c3e6318d")
-		)
-		(fp_line
-			(start 3.7 -2.7)
-			(end -3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "34c9b9ec-90be-4e7c-a659-61123a0a9945")
-		)
-		(fp_line
-			(start 3.7 2.7)
-			(end 3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b8f6eff3-76a5-4586-b43d-b0b0882f07c0")
-		)
-		(fp_line
-			(start -1.95 -1.475)
-			(end -0.975 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c6684f18-9796-4cc1-9b07-86345bee42d4")
-		)
-		(fp_line
-			(start -1.95 2.45)
-			(end -1.95 -1.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "192b5a9f-0913-48b9-96ab-fef913bb122c")
-		)
-		(fp_line
-			(start -0.975 -2.45)
-			(end 1.95 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3c6d48f0-1531-4642-8ed0-88f2c3dbf46d")
-		)
-		(fp_line
-			(start 1.95 -2.45)
-			(end 1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4501e5f1-ffc3-4eb5-8280-767880f17ccc")
-		)
-		(fp_line
-			(start 1.95 2.45)
-			(end -1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c281fc05-48c6-4b92-906c-f5f2a37d2c35")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "e9e7fca0-250f-4b04-81be-6ef64d2b3441")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "e8a062e9-27dc-4211-9eef-a538c9c191af")
-		)
-		(pad "2" smd roundrect
-			(at -2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U10--)")
-			(pinfunction "-")
-			(pintype "input")
-			(uuid "7ee4d8b0-741e-44e1-9c78-5bdddd1410a0")
-		)
-		(pad "3" smd roundrect
-			(at -2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U10-+)")
-			(pinfunction "+")
-			(pintype "input")
-			(uuid "e493d802-d0d8-4fea-8df4-37db3396d5db")
-		)
-		(pad "4" smd roundrect
-			(at -2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-")
-			(pintype "power_in")
-			(uuid "e47d8e76-4330-4c12-b3e3-747d3477ee2b")
-		)
-		(pad "5" smd roundrect
-			(at 2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "d876ce8e-133e-456a-9f02-7dc295609190")
-		)
-		(pad "6" smd roundrect
-			(at 2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(R63-Pad1)")
-			(pintype "output")
-			(uuid "3cb43317-06a1-478a-ba76-cab4e6555ebb")
-		)
-		(pad "7" smd roundrect
-			(at 2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+")
-			(pintype "power_in")
-			(uuid "ec256c8a-5dd8-4a9f-afc7-82043abc33a5")
-		)
-		(pad "8" smd roundrect
-			(at 2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "3556783d-eda6-43ad-b47d-049f35b9df3c")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:M2_BOLT"
-		(layer "F.Cu")
-		(uuid "5251ec26-5aab-4153-8dc9-b1952d4129e2")
-		(at 143.6202 91.8274)
-		(property "Reference" "BH2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "659f71c3-f723-4c40-a9ca-ef7f29e19f4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3511b9e-054b-4fb8-9a0b-fdbf89e30012")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fc2e074-e167-477e-b661-6abd9c7eb954")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e61da186-dafe-4d4e-a71e-45b7460d04fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/8e56cfb1-177a-4ec8-9a45-db6d3de049c5")
-		(sheetname "/Power/")
-		(sheetfile "pcbgolf.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -2.35 -2.35)
-			(end 2.35 2.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "1a9c3658-26bb-4647-95c9-2f3642f1cc7c")
-		)
-		(pad "0" thru_hole circle
-			(at 0 0)
-			(size 4.2 4.2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_0")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(zone_connect 2)
-			(thermal_bridge_angle 0)
-			(uuid "b7341026-b639-4757-9e55-4498fe67c9f4")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
 		(uuid "5285328a-92ee-4804-a307-d3b2a84de668")
@@ -22790,6 +22109,12 @@
 		(path "/89ccbd0e-940d-48f3-94e5-e0e8cfd1070b")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -23035,6 +22360,12 @@
 		(path "/fef6ae5f-ecf0-4fb4-b724-a25d6a0e040a")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -23211,251 +22542,6 @@
 	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
-		(uuid "56e135c4-1f2a-4797-99d6-6fa553200155")
-		(at 136.1494 56.6679)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R52"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a9dcfbfc-8b53-4c5b-9509-b299afc8f8ea")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bac3665-cbe3-450d-95fe-08274428dd60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77cc9882-5c31-402d-9189-808fa2850778")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72e26229-3021-4545-8d32-2898c2a86543")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2cf5dcdc-842b-434d-ba76-b654b6545517")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/6771f7f2-fc5e-4c70-9fee-b1af0d5b2e3e")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12769df3-208e-4f46-93ce-197a55e7f023")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "562597d1-6e05-410e-83d7-0cebbb225cc8")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "940324bb-49bf-4d5e-bd3a-6a0f6edc54c7")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "60d652af-be10-4da2-9c5e-c03f5b595efe")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "9f0bdaec-e853-455d-83f5-f3f327383473")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "52cec8d7-4ddb-4572-a7a2-832f0123109a")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "224e5f2d-028a-477b-81cc-bb73f6e24a5c")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "30582b6b-a0fe-453a-b330-fce84437ce97")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "04d9b6d0-0168-4110-b2e4-94e1d611f5ee")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "269ec19d-3ad5-4830-a995-47076b2b2c6b")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4dc9c82c-1f7e-4bc5-8e05-b8868adf7609")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "d193067b-81bb-466e-a78b-ae99f9de8e18")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "35cb867b-5e51-49ba-b090-ca910ae26599")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U9--)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "fb2f8138-8442-47a1-baa7-2a464144a74f")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "47ce8686-9102-40c0-b9e5-0d8b8db3df49")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
 		(uuid "572ef108-d2cc-458e-ba0b-3b1bdb540271")
 		(at 127.159 72.8839)
 		(descr "RESISTOR\n\nchip")
@@ -23525,6 +22611,12 @@
 		(path "/83e68df3-37f2-474e-9625-89eed8a55f0b")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -23769,6 +22861,12 @@
 		(path "/50324df2-aabb-4ff2-963f-2a832108f580")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -23952,6 +23050,14 @@
 		(path "/2c571ad7-138e-49c6-8eaa-8f64e1f373d0")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "9" "10" "11" "12" "13" "14" "15" "1" "17" "18" "4" "5" "6" "7"
+					"8" "19" "20" "2" "3" "16" "PAD"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -2)
@@ -24391,6 +23497,12 @@
 		(path "/c98eca24-5173-47d8-ab47-6bf9d2dd78d5")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -24635,6 +23747,12 @@
 		(path "/9e091ca1-eb28-44ad-b933-4add5739bd65")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -1.054)
@@ -24819,6 +23937,12 @@
 		(path "/423467b8-8570-4f84-bb2b-9b1c8712648a")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -25064,6 +24188,12 @@
 		(path "/83255f9d-99f1-41ac-b621-1bdb4eb712f3")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -25309,6 +24439,12 @@
 		(path "/1713dda5-c81d-4224-8106-7eafda914b55")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -25554,6 +24690,12 @@
 		(path "/52652a05-9602-4606-986f-75bb08c3a7e7")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -25799,6 +24941,12 @@
 		(path "/eb557264-3bd1-4e5b-8021-f7aeb73bc039")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -26043,6 +25191,12 @@
 		(path "/b9906f4f-49c7-49b5-8a36-39d8efc13700")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.55 -1.25)
@@ -26238,6 +25392,12 @@
 		(path "/d7bb9bbc-c840-4b06-a7a2-69a8a9df09a1")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -26483,6 +25643,12 @@
 		(path "/f1ebb707-81d9-408e-b8e8-42bbc56fb347")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -26827,6 +25993,12 @@
 		(path "/01ad6567-9fc9-4f29-aaf2-4bac1fd231a2")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "U2" "U1" "U3" "U4")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.25 -1.1)
@@ -27002,6 +26174,12 @@
 		(path "/3d4f07ea-b522-4a73-8f7c-4f8b07dc0b5a")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -27334,7 +26512,13 @@
 		(path "/873410f6-0a0a-485b-b31e-5142fd1341b1")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "2" "4" "6" "8")
+			)
+		)
+		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 -2.159)
@@ -27608,6 +26792,12 @@
 		(path "/30559875-79d5-4d4b-b8ab-d0873d67c1e2")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -27894,6 +27084,12 @@
 		(path "/338170dd-d885-41e9-a0f1-e5dec45474e8")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -28239,6 +27435,12 @@
 		(path "/5dcb0534-03b2-45e6-9629-e5231ef9e060")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -28413,90 +27615,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:M2_BOLT"
-		(layer "F.Cu")
-		(uuid "669d7475-86b6-434c-92fe-2d9b51d61800")
-		(at 143.6202 86.6274)
-		(property "Reference" "BH1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7e360a76-5026-4c06-b9b9-48c075218acc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "552015b1-bcdc-44cb-ad12-ba416c4b9707")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8cc2897c-ebec-4f89-9024-7fdf84b80401")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d7fd1d1-e6de-4907-99f9-04571360ee2a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/b402d129-8acb-4fc0-ae01-912e649d8478")
-		(sheetname "/Power/")
-		(sheetfile "pcbgolf.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -2.35 -2.35)
-			(end 2.35 2.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ea99bb17-9353-4c1b-af94-f0180e12a6aa")
-		)
-		(pad "0" thru_hole circle
-			(at 0 0)
-			(size 4.2 4.2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_0")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(zone_connect 2)
-			(thermal_bridge_angle 0)
-			(uuid "122d6117-0321-472c-9b64-9dd018df4b71")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
 		(uuid "67901ac7-acf6-4e58-83cc-84e680352ee0")
@@ -28568,6 +27686,12 @@
 		(path "/16ec2e9a-2b41-4066-8239-73f2c4ee9aac")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -28813,6 +27937,12 @@
 		(path "/6163e711-c2f5-4fed-84b7-6304f44e23f7")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -29045,7 +28175,13 @@
 		(path "/e709cdf8-4b1d-4b88-beaa-7dba1dd7c84f")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -29291,6 +28427,12 @@
 		(path "/ee3c1e0e-a9aa-4e2b-b405-044231553636")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -29536,6 +28678,12 @@
 		(path "/fad0763c-2819-490c-b71f-85316e36137d")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -29781,6 +28929,12 @@
 		(path "/dac7d634-f670-4d3c-9e82-60b6e13497f4")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -30026,6 +29180,12 @@
 		(path "/ace5f64c-9221-4335-95fb-3c0d4592edf8")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -30200,90 +29360,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:M2_BOLT"
-		(layer "F.Cu")
-		(uuid "6d1ecf63-911e-4805-b7b4-8e2a22fb62db")
-		(at 143.6202 102.2274)
-		(property "Reference" "BH4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9a86f8a4-e245-469e-9c8d-45e9da410fa9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5dbb331-7a4d-4e36-bede-1a972f96d22b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b4e497e-3154-45a5-8e6d-b9fbfeedfa20")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cfb37988-a54d-4849-9762-9d824bbc7f8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/434a43ea-6945-4cad-984c-0563737b6866")
-		(sheetname "/Power/")
-		(sheetfile "pcbgolf.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -2.35 -2.35)
-			(end 2.35 2.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b3f7b4d4-46d5-4b01-bb56-c22a4e484ce5")
-		)
-		(pad "0" thru_hole circle
-			(at 0 0)
-			(size 4.2 4.2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_0")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(zone_connect 2)
-			(thermal_bridge_angle 0)
-			(uuid "1aff47ae-8b0d-47ea-8031-99d89e36b8d2")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "pcbgolf:USB-C-FEMALE-VERT-GCT"
 		(layer "F.Cu")
 		(uuid "6f8c5217-d01f-47bf-892e-df2cea2ed6f4")
@@ -30352,6 +29428,15 @@
 		(path "/1dcaf98b-f401-4469-af68-ac6921a0ebb7")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A4" "A9" "A5" "A2" "A3" "A11" "A10" "A6" "A7" "A8" "A1" "A12"
+					"S4" "S3" "S2" "S1" "B4" "B9" "B5" "B11" "B10" "B2" "B3" "B7" "B6" "B8"
+					"B1" "B12" "S11" "S12" "S13" "S14"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -4.558 -2.95)
@@ -30914,6 +29999,12 @@
 		(path "/7eb5eb04-28b3-4f62-a183-aab94b9928a6")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -31159,6 +30250,12 @@
 		(path "/7f2ad999-5c5b-44cf-a97f-6e36fc60e394")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -31404,6 +30501,12 @@
 		(path "/d370f52b-926c-448a-8f4b-98c12cadee98")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -31649,6 +30752,12 @@
 		(path "/6a041a62-084c-4693-be58-aec45409a3b7")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -31895,6 +31004,12 @@
 		(path "/96f8972a-5c5b-47e6-aa2e-667a8d70ca3c")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2" "PAD" "5" "7" "6" "8")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4986 -1.016)
@@ -32160,6 +31275,12 @@
 		(path "/8e75c0c9-6fbb-4fcb-b729-b019f17d4afc")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -32405,6 +31526,12 @@
 		(path "/cf0ee005-badb-43f0-a9f8-93869709d64a")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -32650,6 +31777,12 @@
 		(path "/7ac47bb7-de73-48af-a603-8b8a87d47403")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -32895,6 +32028,12 @@
 		(path "/1820b533-c7cb-4b9b-bfa9-2de5ff2c506a")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -33139,6 +32278,12 @@
 		(path "/0cf30df0-762a-422a-81d3-2dc4d4ee3a4e")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.16 -1.78)
@@ -33290,6 +32435,12 @@
 		(path "/1d9a5152-879f-4ca9-85ee-39a9c090dcde")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -33576,6 +32727,12 @@
 		(path "/81091224-99d1-4bb5-9401-06e0c98b2277")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -33821,6 +32978,12 @@
 		(path "/8630ac92-0471-4b04-9f41-b8f9fd6d64f8")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -34066,6 +33229,12 @@
 		(path "/03bd7d81-4c56-4ff7-9fb0-a7d156931b05")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -34311,6 +33480,12 @@
 		(path "/4d95f5db-d209-4918-b48d-e3908e4a35c3")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -34656,6 +33831,12 @@
 		(path "/ab60a780-d9ac-44e4-aea3-a4a58c1367aa")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -34901,6 +34082,12 @@
 		(path "/3bab63f4-9afe-4477-866a-ec59127a7869")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -35145,6 +34332,12 @@
 		(path "/fd3113e5-bbb3-459c-a156-6f9f8a2074b7")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -35337,6 +34530,12 @@
 		(path "/b66994dd-9f92-41da-a482-28461436a17f")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.7 -1.8)
@@ -35682,6 +34881,12 @@
 		(path "/06b3ff9b-7a27-47b9-ae53-81f6b7a6fcec")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -35856,330 +35061,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-		(layer "F.Cu")
-		(uuid "8a1b1617-d3a8-4c5d-b32b-dfec0fdb86e2")
-		(at 153.8552 70.1574)
-		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOIC SO")
-		(property "Reference" "U11"
-			(at 0 -3.4 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a38438c2-ada5-42ab-9453-791fff40b41f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 0 3.4 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5eecd490-ba27-4c14-a4d3-60a756c695db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3053645b-b338-4279-9ec1-151480488303")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b2809b6-116d-4f58-8679-afd66e7c90f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "73f5dc79-b45e-487d-af20-78a7fc1534b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ef90341-634d-4931-b07c-7347b4097ca6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/4cc3113a-1d45-4f00-a401-732e5301a5cd")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0 -2.56)
-			(end -1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4f53b36-d4e4-4df0-93e1-b13d89255177")
-		)
-		(fp_line
-			(start 0 -2.56)
-			(end 1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6c33add5-b152-4919-a049-c4bad8378830")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end -1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5fdc4949-9d76-49d7-87c1-92b96519afa4")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end 1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5988a6fd-6fa5-46d6-b0c1-a9b18a27ddcc")
-		)
-		(fp_poly
-			(pts
-				(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "71e83321-4010-4fd1-a6fa-6d3b8c5cc9e1")
-		)
-		(fp_line
-			(start -3.7 -2.7)
-			(end -3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e13d4ffa-2790-47ae-861c-74f51123efda")
-		)
-		(fp_line
-			(start -3.7 2.7)
-			(end 3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "08337a5b-a935-458f-8072-8aa621dce8ee")
-		)
-		(fp_line
-			(start 3.7 -2.7)
-			(end -3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bb4c5187-38a5-437f-aab0-305bd86fca9c")
-		)
-		(fp_line
-			(start 3.7 2.7)
-			(end 3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "24f2ce1f-7f07-44b0-be06-f6ec09987ff4")
-		)
-		(fp_line
-			(start -1.95 -1.475)
-			(end -0.975 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2d5415f0-7bc1-4dde-b518-45f6776dacc7")
-		)
-		(fp_line
-			(start -1.95 2.45)
-			(end -1.95 -1.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "78151da4-e2d5-4e12-82b0-f16a64547bd5")
-		)
-		(fp_line
-			(start -0.975 -2.45)
-			(end 1.95 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1ebb8c19-5e28-4110-8c9f-54eeae618dc3")
-		)
-		(fp_line
-			(start 1.95 -2.45)
-			(end 1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6de5574f-0ff6-49ce-88c0-f0572212dc3c")
-		)
-		(fp_line
-			(start 1.95 2.45)
-			(end -1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b2eb45c2-ffc2-476f-aaee-a01dbdbe95bd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "fc080e57-87f2-460c-847e-47e0ab732a20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "4f6b8b87-b127-47a2-bca6-94752fe9b44c")
-		)
-		(pad "2" smd roundrect
-			(at -2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U11--)")
-			(pinfunction "-")
-			(pintype "input")
-			(uuid "fb01f344-7f27-4cbe-97df-458a0cd27bc1")
-		)
-		(pad "3" smd roundrect
-			(at -2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U11-+)")
-			(pinfunction "+")
-			(pintype "input")
-			(uuid "4a0120e9-9427-41de-8ece-72b21e4ac36d")
-		)
-		(pad "4" smd roundrect
-			(at -2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-")
-			(pintype "power_in")
-			(uuid "a6a25d1e-0d2a-4e13-8379-616c41deb295")
-		)
-		(pad "5" smd roundrect
-			(at 2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "3b1a916a-db5a-4a05-afce-9fc33e418a05")
-		)
-		(pad "6" smd roundrect
-			(at 2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(R64-Pad1)")
-			(pintype "output")
-			(uuid "2057c6df-4131-42bc-9a17-881b5a8d18f1")
-		)
-		(pad "7" smd roundrect
-			(at 2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+")
-			(pintype "power_in")
-			(uuid "3772acb4-88d9-4768-975c-860c984fac4c")
-		)
-		(pad "8" smd roundrect
-			(at 2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "5600ce82-0503-4cab-95a1-73ec5dd08b60")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
 		(uuid "8bbaf73a-e9c5-4deb-a8b4-2d43e57ee2bb")
@@ -36251,6 +35132,12 @@
 		(path "/520c981e-6d49-450e-82b8-cfa35139cd77")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -36496,6 +35383,12 @@
 		(path "/6f00ebe1-6f01-48ce-8b4d-a0b5c8e77783")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -36672,251 +35565,6 @@
 	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
-		(uuid "908d67ee-326e-4587-b3de-6ddf59857104")
-		(at 136.1494 74.9109)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R61"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "59c304f2-0332-4a8e-b0f9-286954989368")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af64a153-6545-488f-93ba-89ba84d28e63")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d26c864-2e3d-426f-a531-e080944256e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91c75f45-ab05-45a7-a64e-9d870da3b93c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42155ca2-6ae4-4f5c-bac6-6ae77d3a11e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/bcae0fc2-b8d9-44ac-8b12-aaeb534faa7b")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2230f22d-cb7c-4203-b0f6-82eb1a8528e4")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "783b5ebb-c9a8-45b9-ac41-6c9d17c4760a")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cffdfc81-a856-4176-8a0d-615859e0f1a1")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cf8be0fe-c8d1-425a-95e3-2113087e34b5")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "994bb731-6aba-49e9-92ee-e7ec6bcf60f0")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2898f70b-89e6-4a09-8d76-da756b34be86")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8dcecb11-a2e8-419b-90f4-0bf1cd10f36c")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f781d48f-7b1c-4af1-9147-de407d341c84")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7aed266b-1832-4209-bf53-381944799cb0")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dea214cd-7277-4c0e-81b6-3ad48d9593d2")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "da8b75cd-ea8d-49f1-b01f-f840ef9c2779")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "c39ba348-5cf3-4c0e-95f1-62c28ae5b7e7")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "5b79939a-9448-4cda-8b02-ec10a6f32a2c")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U12--)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "eb8dc9e5-49d7-4ae0-9ffd-3c3d9af41a38")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "4a9e840f-a0c6-4583-b32b-62699aed8df7")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
 		(uuid "91a0120d-23a6-42fa-8a33-d024a28a913c")
 		(at 148.1366 68.8299)
 		(descr "RESISTOR\n\nchip")
@@ -36986,6 +35634,12 @@
 		(path "/f9a474d6-883b-4d0c-bbc1-b7f5548e30d1")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -37231,6 +35885,12 @@
 		(path "/e3e00e1d-fdba-4856-abd1-22bd6bd71c19")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -37476,6 +36136,12 @@
 		(path "/557314f5-4c77-488a-a186-a4d6609eec91")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -37721,6 +36387,12 @@
 		(path "/1ffaacde-c180-46ab-8da8-b47be09916d9")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -37966,6 +36638,12 @@
 		(path "/e9162cea-1a6a-4a51-a492-c7958a04a698")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -38211,6 +36889,12 @@
 		(path "/20c13175-dc45-426a-95db-b4c91fe086f0")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -38455,6 +37139,12 @@
 		(path "/2f2b6def-71be-4dd2-badd-3745089a7d3e")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -38646,6 +37336,12 @@
 		(path "/77403ac5-88f9-495f-8a11-e372010194f4")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -38838,6 +37534,12 @@
 		(path "/1922906e-fc1d-4261-90c6-ee54e6fff7be")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -39082,6 +37784,12 @@
 		(path "/42bf5088-dfec-4aee-bfda-6b728213ef2e")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -39266,6 +37974,12 @@
 		(path "/307f9b9e-ed0c-46a6-af26-7a060661477a")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -39511,6 +38225,12 @@
 		(path "/d45fc977-189e-49da-b6e8-3b95a0e7fa41")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -39755,6 +38475,12 @@
 		(path "/87b0602b-9c93-4c29-b517-7cd9a0dd6aa3")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "7" "8" "1" "2" "3" "5" "6" "G1" "G2" "G3" "G4")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -13.7 -11.95)
@@ -40016,575 +38742,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "a230154c-1d6b-4b9b-9472-565b06845712")
-		(at 136.1494 54.6409)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R51"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "48ad7a08-c02f-43a0-9ad6-f8dbf74eba22")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93ba8b7b-365d-4a5e-9086-e01578ee0c3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03a0e23b-e27c-47ab-8de9-e72a8fa26d18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b9b6463-931b-4abd-baf6-283452f93b6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5176485d-dd40-4543-ab1f-6e0441fee024")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/72b1e2ad-0208-494d-b9d7-3b365a2689c0")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "759b91a4-fde1-4dbd-a2a5-e5d66db1d222")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d2efb165-057f-42d1-97b9-c56112ff7620")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cf2263b1-0299-4035-aebd-4369e558ea36")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0147765a-3a76-4038-ba77-b0b631320b13")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "9e4fa5d7-0bf7-4748-b093-60b01b7b398b")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4eb52ad5-6059-48b5-84db-1d026a20421a")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "64a8f6bf-ea96-464e-bb12-03b10606c88b")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2ebe9ff3-6dca-46ba-b106-fc00af7e1054")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ac554872-a7d5-436a-8036-4af8b8a0988e")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a4b7dafb-1da2-4aa6-b706-6a6dfe5680e8")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "68f10c8c-4033-477a-9a49-34ceaa383af0")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "bffc7b16-768b-4533-9486-76f54ee1836b")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "3ef6f3d1-0717-4df6-b535-2f170cf84ba2")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN0_L")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "3d4f6502-5c63-4273-a81a-03abe93c6a38")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U9--)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "750af47a-eb8b-4379-bdca-ac42a2fcbc4b")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-		(layer "F.Cu")
-		(uuid "a29755ac-64cf-4440-83e2-e27d29806666")
-		(at 153.8552 76.7424)
-		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOIC SO")
-		(property "Reference" "U12"
-			(at 0 -3.4 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3785be49-f0c8-404c-9e0f-cc7947e7868c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 0 3.4 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69fdb483-bf21-4667-8904-f1742e452501")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4df07f5d-bc20-4a6e-8162-8793e3255534")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5953ae46-07e9-4567-8f28-6d6a949dbd4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3ea3cd00-a722-4581-ad85-ea6c87626a2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a16f3bbe-3d19-4c25-af77-62fd1b945035")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/9e576fbe-7df5-4042-bc80-8ba63217e981")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0 -2.56)
-			(end -1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e6118a6d-9096-49a5-b0f9-29c436b18157")
-		)
-		(fp_line
-			(start 0 -2.56)
-			(end 1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed78024b-9ffe-412a-a718-234587859578")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end -1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3d16bbe8-b1d3-4a3f-85a1-d7a9ccccb458")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end 1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7a3aa5a4-8ccd-4096-8536-dc29de479163")
-		)
-		(fp_poly
-			(pts
-				(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "b4ab6606-a260-4ffc-8d6f-04bf695e4d93")
-		)
-		(fp_line
-			(start -3.7 -2.7)
-			(end -3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f8d73c1d-ad0d-41a2-b795-0647b8089303")
-		)
-		(fp_line
-			(start -3.7 2.7)
-			(end 3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "98852f54-ffc7-40f7-be22-f409845a19a6")
-		)
-		(fp_line
-			(start 3.7 -2.7)
-			(end -3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3556f68d-e94d-4d27-918c-06414c559c17")
-		)
-		(fp_line
-			(start 3.7 2.7)
-			(end 3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "648bdebb-1ff7-4635-b8ad-17bf06845c86")
-		)
-		(fp_line
-			(start -1.95 -1.475)
-			(end -0.975 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2ee671dc-1818-4b8b-951d-241f98d61f09")
-		)
-		(fp_line
-			(start -1.95 2.45)
-			(end -1.95 -1.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ae492295-6f2e-4e12-b9bd-d90b94b82154")
-		)
-		(fp_line
-			(start -0.975 -2.45)
-			(end 1.95 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3a551c76-c07d-4996-9844-2b5585d315e0")
-		)
-		(fp_line
-			(start 1.95 -2.45)
-			(end 1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bed12261-8a76-4ac4-8fa1-bc47b0376ac1")
-		)
-		(fp_line
-			(start 1.95 2.45)
-			(end -1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "37be84fb-1c1d-4732-8546-86ce6ea7d25e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "82853524-7b78-4cd6-af0c-5e1212a8b23e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "07986248-33fe-4a3d-8f98-327f5560551e")
-		)
-		(pad "2" smd roundrect
-			(at -2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U12--)")
-			(pinfunction "-")
-			(pintype "input")
-			(uuid "da731e38-43e7-452f-91aa-ac2bea6514b7")
-		)
-		(pad "3" smd roundrect
-			(at -2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U12-+)")
-			(pinfunction "+")
-			(pintype "input")
-			(uuid "5c4de8ce-28b6-4a27-a4d3-4822f625e1bd")
-		)
-		(pad "4" smd roundrect
-			(at -2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-")
-			(pintype "power_in")
-			(uuid "c1b0e0a6-a58f-429d-add0-8963653c794c")
-		)
-		(pad "5" smd roundrect
-			(at 2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "eeeacf30-46ca-44f1-8af3-d98dc337273a")
-		)
-		(pad "6" smd roundrect
-			(at 2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(R65-Pad1)")
-			(pintype "output")
-			(uuid "281feee7-76c0-444e-9c2f-5e544bb8a7db")
-		)
-		(pad "7" smd roundrect
-			(at 2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+")
-			(pintype "power_in")
-			(uuid "ee8fbb1f-3f1d-4cc3-9083-591a60eaf8c4")
-		)
-		(pad "8" smd roundrect
-			(at 2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "e174c626-af65-4aaa-8015-ef9b996a60f0")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:SOT23-3"
 		(layer "F.Cu")
 		(uuid "a314bdad-c967-4331-a9c1-303b1a3e50f8")
@@ -40655,6 +38812,12 @@
 		(path "/cf12d044-3ddc-4bd9-845b-168e69b2f801")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -40847,6 +39010,12 @@
 		(path "/60af5ba9-bca8-4880-9865-aaa43ceec0dd")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -41091,6 +39260,12 @@
 		(path "/bb491b0f-9862-4cc1-9664-82600d09c9e9")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -41275,6 +39450,12 @@
 		(path "/a3cbc407-03b2-466c-a00a-7126a25cff18")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -41520,6 +39701,12 @@
 		(path "/1f563eb7-5577-4d57-bbe2-8e165df4b449")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -41765,6 +39952,12 @@
 		(path "/3f101d08-06c6-4676-b4fe-d090621bf166")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -41939,90 +40132,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:M2_BOLT"
-		(layer "F.Cu")
-		(uuid "a6c7d2fe-ad16-45bb-97f9-ba264534f86f")
-		(at 143.6202 97.0274)
-		(property "Reference" "BH3"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "92ac6c24-e03f-42ee-9fdb-ecf82448e839")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M2_BOLT"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0efc482d-c0c5-426d-939a-737e183240ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0217e68d-1f4f-4fa6-87e0-888776100029")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa38fb9a-8761-4deb-9763-a339a3821f47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/53d5e67d-e254-4c84-ab56-24229f5ea92b")
-		(sheetname "/Power/")
-		(sheetfile "pcbgolf.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -2.35 -2.35)
-			(end 2.35 2.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ca6804e4-a363-44ae-a2a8-20bf73612ab7")
-		)
-		(pad "0" thru_hole circle
-			(at 0 0)
-			(size 4.2 4.2)
-			(drill 2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "1_0")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(zone_connect 2)
-			(thermal_bridge_angle 0)
-			(uuid "de650a07-f0c9-4339-ac37-4f686a46b49d")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "pcbgolf:0402-C"
 		(layer "F.Cu")
 		(uuid "a73c549f-3e49-4722-865b-ee016524cc3c")
@@ -42094,6 +40203,12 @@
 		(path "/ed328a35-11ae-4046-bfd5-2b6b0521933c")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -42339,6 +40454,12 @@
 		(path "/14872de7-22dd-4d20-953e-e66264073b29")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -42584,6 +40705,12 @@
 		(path "/032a1200-0fbb-4546-b47d-ba8f14be0c32")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -42870,6 +40997,12 @@
 		(path "/3fdbdfd5-069f-4d3c-88f6-0859def9e73a")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -43044,251 +41177,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "aabbc891-f807-4c58-81c9-2e46b7b5236e")
-		(at 136.1494 68.8299)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R58"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a776ed05-3922-4fdf-93e9-31f79093a82e")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1e923ec-04f9-411b-8445-fe9327263443")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1362293-73cc-4435-8912-52d7e6cfd8f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a31e7dd-9ea5-48d0-861e-ec10e3d434cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402JR-07100KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d6800bd1-d0a3-47e7-9b6a-1eaa291cc656")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/336f4bed-48c8-4cee-82f0-5ec3e3387e0a")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc610f24-4a4c-4f30-ac1e-79dcc470e778")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e6a332c-d551-4032-8215-7fca472d2762")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "47a20d74-51c1-4468-bc4b-f0d6bfe1a957")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "84e52582-91ae-436d-abfb-82bec92fa086")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "582c6eec-ce29-4e6e-bb31-3a77ccde6fcc")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "17f7feb3-04b4-4ed7-a1ef-4cf3b4675c68")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c8c81681-da42-45bd-bbb9-a6c8eaa8e3ce")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d9d150cf-20c8-43df-b31c-2ec936806233")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7c380c69-5a28-483a-8ed9-2084c050415d")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6975bec4-8d5c-48f4-9b39-bd1b3297a776")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "107b2846-f9ec-4e0a-ae0d-d357684fb159")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "254bdd5f-488c-432b-8673-244bc1ed96dd")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "cf2fbf45-37d1-491d-be7f-811152a54d43")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U11--)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "ac1c2585-3879-441b-a658-fd61c38ac9e8")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+5V")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "dfc56ee0-a2d1-4285-8035-a5fe78a3a202")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:SOT23-3"
 		(layer "F.Cu")
 		(uuid "ab47b643-f122-407b-8680-6123bf00dc33")
@@ -43359,6 +41247,12 @@
 		(path "/29c28c0c-9cfb-4712-afb2-896471194b95")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -43499,7 +41393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2k7"
+		(property "Value" "330"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43551,6 +41445,12 @@
 		(path "/281f4c4c-81f7-45b7-bd18-bdd22e5eaf6e")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -43692,7 +41592,7 @@
 			(at -0.45 0)
 			(size 0.6 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(R62-Pad1)")
+			(net "LED_CAN0")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(solder_mask_margin 0.0508)
@@ -43711,496 +41611,6 @@
 			(solder_paste_margin 0)
 			(thermal_bridge_angle 0)
 			(uuid "a1a3fb5b-08f4-4d06-901f-2381a9017e18")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "ac427bbf-0255-42de-a89a-2b9ed7d00446")
-		(at 136.1494 64.7759)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R56"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "91bc6929-79b9-4f2c-89d2-3bd5d6611772")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ade2ab3-e478-4c32-bee6-643263ed5d0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f4d120b-c9be-40d1-932e-320ecb3d7710")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30c6e5e9-ea38-42c5-bfb7-a13155e58450")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20ce2e53-12f5-4ef6-99bf-13908769d1db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/e88cae2a-0a36-40d4-b07c-1f3e607af29b")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4e8258d1-57ca-40bb-bd25-e461c532929f")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "02db8dbf-6724-4db9-b940-fce613260a97")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "64f279a2-3105-4ea7-9820-d273634a6bbd")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "19585ad5-428e-4f0c-a7b7-1384fb8941aa")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "32aa9691-7443-4372-91c7-3e65b64f7de0")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "df4699a6-bd84-4058-82ca-87dc40fe6a78")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "914f0f65-f306-43f3-b1e5-6f91e217fa03")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ba3d0321-3ccd-4c1f-b7a2-e4bc76194bb2")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "39111ee5-32ba-44b9-8cec-f1c1be70f74a")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6b736c2b-ef94-46b4-9942-fc208cbb7771")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "593d055f-08c9-4e96-971b-b9bc193add18")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "e81c18fc-cf02-4b03-b10f-d4c3e951a418")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "2bcd6e45-82dc-4698-b44c-c1f40eb2e355")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN2_H")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "ab90da9a-b942-4fc7-9cd3-3e990fe60eb2")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U11-+)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "1f94d154-9ded-4bc9-b922-e6b20e65c20b")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "ac69b90f-7cc8-4c74-b8b7-e56a3d76e0bc")
-		(at 136.1494 60.7219)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R54"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "56c44d6e-9b9e-4810-b694-1cc15025000d")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbafb2a1-e28b-4f96-8986-9f3bc45ada9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2572f694-e849-4d1b-849c-ec58ce28f286")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90c19ff9-85fb-44eb-8e9f-e37eabb935f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17b100b9-8f02-4f4a-bc24-30414ebafca5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/b3c9a40a-e2de-44fa-a7ef-2cf7ea447c32")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "39c0c850-8b45-4d90-9bd5-9cdab3f7ee3f")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "32cfbad7-6416-49aa-a7a0-e41518e0495a")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df1e89d8-d157-45e0-905a-021a7dbb2965")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4547e82c-3557-4434-8e2f-493077dff143")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "ee7df173-c501-4d4e-a864-a91ebc84405a")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0ba6df3b-7448-4fcb-9c86-cf921ee7a170")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "091101a5-a19c-48d1-9b2f-105fefd91725")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bf3920b2-da0f-4c76-9354-de88836ca28e")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3e22adb3-8b2a-4c0a-bc9b-7cd867eeab78")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4e1cc0d7-abd9-4bbf-8823-501819a4d765")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "75623207-fb18-45d5-b41a-3b4b11e49993")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "e3335b51-af5a-4eae-9958-95bd12c69aa5")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "5f66ee2f-c39f-4567-8d9c-87bb2d263c46")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN1_L")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "dc379a03-3153-498b-83a0-fd38409c6860")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U10--)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "e85e5eb4-7ee4-4ba4-a5af-ee9e612ea8fe")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -44286,6 +41696,12 @@
 		(path "/bd109de0-1b48-40d3-bde5-54a1ab01f030")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -44531,6 +41947,12 @@
 		(path "/d435943c-4693-4cee-8c98-de5197f643a8")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -44776,6 +42198,12 @@
 		(path "/4d57fbc4-1335-4383-9897-b48ad8a6bc36")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -45020,6 +42448,12 @@
 		(path "/d9928253-0bdf-4b7f-8d7b-2ecb5843078e")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -45203,6 +42637,12 @@
 		(path "/472267c8-daee-4521-877b-dad9921d4112")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -1.2)
@@ -45363,6 +42803,12 @@
 		(path "/f180ffb8-3ff7-4488-ba1a-d06098e7e223")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -45608,6 +43054,12 @@
 		(path "/42a2a787-7f28-4871-84a2-86b39529875c")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.55 -0.75)
@@ -45853,6 +43305,12 @@
 		(path "/ff6a9632-48ec-477f-97db-851bd3ed18dc")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -46098,6 +43556,12 @@
 		(path "/39c1d8cf-77de-4308-aecb-72014efc08a4")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -46342,6 +43806,12 @@
 		(path "/f58a2601-3f1e-419f-bd06-295097286341")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -46525,6 +43995,12 @@
 		(path "/8095f2d1-4b34-4b22-887c-eb5fa972866a")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "6" "7" "8" "9" "1" "2" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.65 -1.65)
@@ -46749,6 +44225,12 @@
 		(path "/fb4a78ea-2ec1-44b2-923c-b9d075d4a9a1")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -46994,6 +44476,12 @@
 		(path "/64bb9c99-9f95-4270-8d4f-d5afc62d1e69")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -47170,251 +44658,6 @@
 	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
-		(uuid "b88b9ff8-21d2-4153-981c-2f448337c62b")
-		(at 136.1494 70.8569)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R59"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e3c61762-388c-4ef7-84fc-160e3dbdb641")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b10bfba2-88c5-45b3-9903-3c2679341659")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0adb8ddc-cdaa-4ca9-ac64-68c7386a4a06")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "63802a7f-199e-453c-9b95-a5e97afc2003")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "887da8ae-651b-4fc8-8807-15d8e3a12a41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/831cd29b-4e32-4c5d-8f61-fdb518271db4")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e74a2f4c-66b0-4176-b24d-8059beb273f5")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2b324e04-5c22-4823-a63d-8a1e3f1bd374")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec457c0e-acf6-4876-9a20-0fcb81116e40")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d58684c-5b62-446e-b0ae-5171cae3acf9")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "6e96529f-a318-4ff8-87a4-74e39d6ebe27")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0561cc4e-6355-4def-bbcf-a48483e992e3")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "480a0b4c-fd6b-41d6-aba0-425fbb55ad2d")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5d30d5ed-0a26-4085-b27b-6d1f880cce38")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "06b5798b-14a0-4717-9062-6bba8f09e845")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f18efcd7-5d9f-4183-a64a-34244b4b638b")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3a70d3f9-57f2-471e-903e-3c5de6b54d4f")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "75ff4b80-715a-471b-b1bb-a2d2956c749e")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "fe223720-14c0-4fbe-a0c6-2dc72ba266b6")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN3_H")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "4d486f2f-43cc-42b2-b56e-85062436107d")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U12-+)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "e5986b3b-b77b-4b82-90b6-ce455b6dcae9")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
 		(uuid "b8d71dd9-6e0d-4dc2-a58a-f3a9d4a0c08b")
 		(at 148.1366 72.8839)
 		(descr "RESISTOR\n\nchip")
@@ -47484,6 +44727,12 @@
 		(path "/800295ae-d1af-413a-938f-d0f6dd72a9ba")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -47728,6 +44977,12 @@
 		(path "/983fdd50-2072-4b62-8274-c0ec4b2b09f6")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.65 -1.3)
@@ -47841,251 +45096,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
-		(uuid "bb36356e-69d6-4c80-b6e7-045558b3f828")
-		(at 136.1494 66.8029)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R57"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5980851a-2c2d-4fab-bd45-b8e00f503fa9")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "406dde02-2f98-4b2f-9389-9de052678aa3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0b86ae7-abfe-4904-a4d1-6c404626942c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a8d5618-c6fb-4225-a623-ac4c7d0d3999")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "add36a5b-297f-40b6-a7ef-8b7d3d7d5082")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/93296e6b-77d4-4be7-ac7e-08b8ba077642")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96c4c912-a195-4f1e-bca9-5ba820326226")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4fb9cde2-46b4-4545-b648-14f73337b2a8")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "153cfb88-71d5-407c-a438-34628cc62a7a")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3787a1b9-aceb-42e9-83e5-b9ff2df21a28")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "3a405379-4b88-47e7-80e8-427e052c377f")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bcbad6ab-cab5-4522-be80-4273ca2ca4ab")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ef838389-6e0c-4c19-a326-5e2d1b39ae58")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d6d990e6-7d85-4048-b09a-4d98994fe193")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0623da9e-74bb-4e6e-86b2-047d852ad810")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "56879895-38ac-4b04-ac22-5f82b01d8b1a")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9835e4ad-dba9-4b1d-85ff-344b5d9247c3")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "fbd94ca3-7013-42a4-995f-c9b2263c6dc1")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "f2e9314e-eda2-41de-9db5-b72c88af1901")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN2_L")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "7af259d4-7185-4021-ad23-6b7490b6adf3")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U11--)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "7bb59b91-e913-495b-b6d4-f67a45807df5")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:0402-C"
 		(layer "F.Cu")
 		(uuid "bb617c8a-1f05-4c44-ac1e-d319cf6f14e7")
@@ -48157,6 +45167,12 @@
 		(path "/f80a0caf-d4cf-41c5-be7b-0dfadee38647")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -48402,6 +45418,12 @@
 		(path "/93939abc-96cd-40d5-a852-e0c20db79a96")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -48647,6 +45669,12 @@
 		(path "/c3a7b28f-ffb2-4616-8d6f-f4cd55f23fce")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -48892,6 +45920,12 @@
 		(path "/d83a6d86-ff85-44bd-b957-0ed9cf93f0d9")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -49138,6 +46172,12 @@
 		(path "/ab4df385-4d74-405c-b030-7cd06e63c281")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2" "PAD" "5" "7" "6" "8")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4986 -1.016)
@@ -49403,6 +46443,12 @@
 		(path "/77b1f17f-b64f-444f-9b03-8c620d3b107d")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -49648,6 +46694,12 @@
 		(path "/662b6e12-ac45-429f-b46e-855359ea78f5")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -49893,6 +46945,12 @@
 		(path "/d4c38c4e-653d-4627-a592-68df3de04269")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -50138,6 +47196,12 @@
 		(path "/484848c8-3ac5-4828-b5bc-98bc94092556")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -50383,6 +47447,12 @@
 		(path "/a31e0d00-0416-4e72-be02-1b0697b97308")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -50628,6 +47698,12 @@
 		(path "/3b253b19-4084-44a6-80ff-931e693a2f26")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -50860,7 +47936,13 @@
 		(path "/9cf09e75-fa1f-49f5-98cb-c0e0d51b7d84")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -51106,6 +48188,12 @@
 		(path "/4c425d2e-aa7a-4f67-b7e7-c85ce4e90d95")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -51351,6 +48439,12 @@
 		(path "/be566d12-fb38-4f4e-af2b-76de6a9345a6")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -51525,330 +48619,6 @@
 			)
 		)
 	)
-	(footprint "pcbgolf:SOIC-8_3.9x4.9mm_P1.27mm"
-		(layer "F.Cu")
-		(uuid "d16619ef-8424-4949-9700-4a685f0f0454")
-		(at 153.8552 56.9874)
-		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOIC SO")
-		(property "Reference" "U9"
-			(at 0 -3.4 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c8d3d279-5918-4f74-b970-8dd51a14a993")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OPA197IDR"
-			(at 0 3.4 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c73b7a8b-d6cc-4d2f-82e3-8ae8a96ff112")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d4f4553-e09d-4c02-a12c-0299ccb2fc12")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f1e2308-aa02-4402-9b32-09cdcf552a90")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f593cbce-51ab-4fdd-a7bf-6ae61f7087fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "OPA197IDR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "daeff032-459f-4d58-a022-8cefb1d5c0b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
-		(path "/220f12d8-c8cb-46a0-bd5b-0937aab47885")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0 -2.56)
-			(end -1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "826a21a9-6000-474b-a6f1-83c8b0a6b1f1")
-		)
-		(fp_line
-			(start 0 -2.56)
-			(end 1.95 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "896792de-1055-4fdd-92bc-5288ad3f35a3")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end -1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "06ad9dc2-c69e-4190-bc12-64a345cb7fd8")
-		)
-		(fp_line
-			(start 0 2.56)
-			(end 1.95 2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7965cc39-8088-4902-89f5-571a7d661f19")
-		)
-		(fp_poly
-			(pts
-				(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "303ff4eb-8355-4b84-8011-76da7635765f")
-		)
-		(fp_line
-			(start -3.7 -2.7)
-			(end -3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "976017af-6b88-4e36-aca9-f353c4b64e72")
-		)
-		(fp_line
-			(start -3.7 2.7)
-			(end 3.7 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4dc4d9fa-f5d8-42c3-b8c8-9d12f3a24cc6")
-		)
-		(fp_line
-			(start 3.7 -2.7)
-			(end -3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dad01224-025e-4219-abb7-843a2d3ab992")
-		)
-		(fp_line
-			(start 3.7 2.7)
-			(end 3.7 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "02955ac8-019a-43d7-ad83-600d88685964")
-		)
-		(fp_line
-			(start -1.95 -1.475)
-			(end -0.975 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8d542043-9947-4b67-851b-0657fb0006cd")
-		)
-		(fp_line
-			(start -1.95 2.45)
-			(end -1.95 -1.475)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1d6bc2ae-a1ee-4e17-a229-8ef3b2817df4")
-		)
-		(fp_line
-			(start -0.975 -2.45)
-			(end 1.95 -2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9fdbc7ff-48ee-4b31-b182-d78a28fe67b7")
-		)
-		(fp_line
-			(start 1.95 -2.45)
-			(end 1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ea743805-3f88-45db-bc10-6faebf6353c6")
-		)
-		(fp_line
-			(start 1.95 2.45)
-			(end -1.95 2.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2d415092-c126-4514-b620-c1863932d438")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "e77c98d7-bc6e-4e35-9fc0-388967670462")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "35734eb1-9fa4-49b5-940a-5eb76a58f673")
-		)
-		(pad "2" smd roundrect
-			(at -2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U9--)")
-			(pinfunction "-")
-			(pintype "input")
-			(uuid "cbb8c5de-f64a-4b88-af82-0ec92210f205")
-		)
-		(pad "3" smd roundrect
-			(at -2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U9-+)")
-			(pinfunction "+")
-			(pintype "input")
-			(uuid "9d1e4954-db43-4643-ba3d-ad0e33ba4920")
-		)
-		(pad "4" smd roundrect
-			(at -2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-")
-			(pintype "power_in")
-			(uuid "0ea343a7-da4e-44ee-b592-08506df24143")
-		)
-		(pad "5" smd roundrect
-			(at 2.475 1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "8788e74f-745b-4586-ad27-288a75c6d70a")
-		)
-		(pad "6" smd roundrect
-			(at 2.475 0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(R62-Pad1)")
-			(pintype "output")
-			(uuid "ad0a76a7-e9a0-4dcb-a5b3-28ddaafc6e1d")
-		)
-		(pad "7" smd roundrect
-			(at 2.475 -0.635)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+")
-			(pintype "power_in")
-			(uuid "fbddd5b4-9c76-4e80-a65f-43bb99b8699c")
-		)
-		(pad "8" smd roundrect
-			(at 2.475 -1.905)
-			(size 1.95 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "056622bd-6f35-4f51-9827-0637c1710ad5")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "pcbgolf:EVQ-Q2"
 		(layer "F.Cu")
 		(uuid "d246eae0-be27-472f-a24d-5ca482618065")
@@ -51921,6 +48691,12 @@
 		(path "/1e7de66f-c29c-475c-afc0-066bf9f94609")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "B" "A" "B'" "A'")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.3 -3)
@@ -52127,6 +48903,12 @@
 		(path "/fd7a8d66-ce96-472f-a0be-af31826bd4ef")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -52372,6 +49154,12 @@
 		(path "/ee22b11b-48f4-4b91-b28a-c308d4170ab8")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -52617,6 +49405,12 @@
 		(path "/8b81325d-01b2-4553-b351-970e5973d0e5")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -52862,6 +49656,12 @@
 		(path "/87b37cb9-fc2e-441d-ae41-12f9e802a486")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -53107,6 +49907,12 @@
 		(path "/7985d17b-3150-4e47-82be-81d8574f289d")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -53352,6 +50158,12 @@
 		(path "/93c167d3-5f32-4ab9-b95e-a12e56083071")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -53594,6 +50406,15 @@
 		(path "/8c0bd053-3117-4f92-a146-54545c445aad")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A4" "A9" "A5" "A2" "A3" "A11" "A10" "A6" "A7" "A8" "A1" "A12"
+					"S4" "S3" "S2" "S1" "B4" "B9" "B5" "B11" "B10" "B2" "B3" "B7" "B6" "B8"
+					"B1" "B12" "S11" "S12" "S13" "S14"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -4.558 -2.95)
@@ -54156,6 +50977,12 @@
 		(path "/5dd06c95-e03c-41bc-bfd3-6750c7a2c8f1")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -54401,6 +51228,12 @@
 		(path "/875abac6-1861-40fc-8f53-a7c376683d80")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -54646,6 +51479,12 @@
 		(path "/eb420d3c-7fad-481c-bf13-d0602fc05289")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -54890,6 +51729,12 @@
 		(path "/1762ba0a-930d-4bd6-9010-e1c05a6638d4")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -55074,6 +51919,12 @@
 		(path "/7b85f618-bccf-42f6-9b88-42ccd657eefb")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -55318,6 +52169,12 @@
 		(path "/b4373cd4-9ca3-4f25-8532-04797df8f6f2")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.65 -1.3)
@@ -55501,6 +52358,12 @@
 		(path "/a04f4626-1ca4-4c4e-b088-5d33fc1297a1")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -55693,6 +52556,12 @@
 		(path "/b049e571-6615-4353-90cd-88f67c76884f")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -55938,6 +52807,12 @@
 		(path "/de8e3a91-eb8e-423c-9657-2e5cc92914dd")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -56223,6 +53098,12 @@
 		(path "/98fa0328-6b4b-4433-ab3b-83d359858f4b")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -56407,6 +53288,12 @@
 		(path "/c449c9b2-4e56-4322-91fc-8a0ba1f5ddee")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -56651,6 +53538,12 @@
 		(path "/026e80c7-4bb6-4b13-b3d8-f777c2d8df3a")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -0.8)
@@ -56834,6 +53727,12 @@
 		(path "/f0bf3412-667d-4908-ab85-b9fe8920e42b")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6 -1.2)
@@ -56994,6 +53893,12 @@
 		(path "/94ce5cd3-e038-448d-ada7-0ea848c1a834")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -57239,6 +54144,12 @@
 		(path "/993971ea-d956-4e94-8940-7b0676aa1eac")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -57415,251 +54326,6 @@
 	)
 	(footprint "pcbgolf:0402-R"
 		(layer "F.Cu")
-		(uuid "e75ce850-0781-4d8d-86c3-d434a0690811")
-		(at 133.1526 83.0189)
-		(descr "RESISTOR\n\nchip")
-		(property "Reference" "R50"
-			(at -0.635 -0.762 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3692f297-055a-442f-9e62-24049f77e9f1")
-			(effects
-				(font
-					(size 0.747776 0.747776)
-					(thickness 0.065024)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ed3c426-07e5-48d4-8eb9-9d6372b660e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f81cab1-4bd9-4b06-bb96-b044bf53bf41")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2104d51f-42f4-4743-995f-5b8bf3f7bab6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d60f2b9-90df-4af2-8d85-93993a682b1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/491578ce-457a-45c4-9128-3f9f72cc633a")
-		(sheetname "/CAN-FD/")
-		(sheetfile "pcbgolf_4.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.9 -0.45)
-			(end -0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "014a3a3c-6187-4ae6-8922-d3b27630023e")
-		)
-		(fp_line
-			(start -0.9 0.45)
-			(end 0.9 0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c67a9f3-11c1-4da1-bbfa-6c3ebdfae626")
-		)
-		(fp_line
-			(start 0.9 -0.45)
-			(end -0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "58b53e4e-11fe-4e3f-97bc-e95541164208")
-		)
-		(fp_line
-			(start 0.9 0.45)
-			(end 0.9 -0.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80e74c9b-6b95-44ed-8874-e9e6fd352a87")
-		)
-		(fp_poly
-			(pts
-				(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "ecb259aa-d7af-4e55-8c08-e3efc68d9927")
-		)
-		(fp_line
-			(start -0.973 -0.483)
-			(end 0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "01072175-ac86-49f0-b982-cfe17b6397ac")
-		)
-		(fp_line
-			(start -0.973 0.483)
-			(end -0.973 -0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "154c9448-6208-43eb-9d5e-337eb19d6101")
-		)
-		(fp_line
-			(start 0.973 -0.483)
-			(end 0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "01011fa1-a1a7-4340-bd57-c1d6bf89a619")
-		)
-		(fp_line
-			(start 0.973 0.483)
-			(end -0.973 0.483)
-			(stroke
-				(width 0.0508)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c2f29646-6689-4fd4-b966-4f38427bf213")
-		)
-		(fp_line
-			(start -0.245 -0.224)
-			(end 0.245 -0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5cd93409-f6b1-48cd-85ce-094bbd698687")
-		)
-		(fp_line
-			(start 0.245 0.224)
-			(end -0.245 0.224)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b63d444c-0a3f-48f6-86ee-0b2b039eb538")
-		)
-		(fp_poly
-			(pts
-				(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "a961ccde-0eff-49d2-8b1b-a8665027e965")
-		)
-		(fp_poly
-			(pts
-				(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "fd88dcc8-f9d8-42c6-8a96-3a57859d78f3")
-		)
-		(pad "1" smd rect
-			(at -0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "CAN0_H")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "694bc90a-ad2e-4997-8a4d-70adc4510ea6")
-		)
-		(pad "2" smd rect
-			(at 0.45 0)
-			(size 0.6 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U9-+)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(solder_mask_margin 0.0508)
-			(solder_paste_margin 0)
-			(thermal_bridge_angle 0)
-			(uuid "4682c6f0-c685-4867-91e2-ce9e291960f9")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/pcbgolf.3dshapes/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "pcbgolf:0402-R"
-		(layer "F.Cu")
 		(uuid "e910b38c-1b70-4ef8-baab-10c673bb262e")
 		(at 145.1398 80.9919)
 		(descr "RESISTOR\n\nchip")
@@ -57729,6 +54395,12 @@
 		(path "/47e2fd29-495e-460e-85af-66471ef4794c")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -57974,6 +54646,12 @@
 		(path "/7c03e56f-c070-49ae-8777-2bc68b15172f")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -58219,6 +54897,12 @@
 		(path "/a1e11db0-2f1a-480e-8950-1e05892ef8a8")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -58463,6 +55147,12 @@
 		(path "/b96f387c-57b1-4ca0-9bb6-a21986a7bbd1")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.7 -0.7)
@@ -58655,6 +55345,12 @@
 		(path "/c40291e9-13b9-401d-af0b-9f1b4d9db200")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -58900,6 +55596,12 @@
 		(path "/c7256d2d-a487-4b0a-bbcb-0b88032ff09f")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -59145,6 +55847,12 @@
 		(path "/bbb22693-b68d-4a8a-81e9-1fec2f88a2ae")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "5" "1" "2" "6" "4")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.423 0.781)
@@ -59436,6 +56144,12 @@
 		(path "/677d7c0d-364e-4df9-9f57-544405b49c4e")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "5" "1" "2" "6" "4")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.423 0.781)
@@ -59727,6 +56441,12 @@
 		(path "/71e6c378-2837-4539-ad35-ecc96a9f7d32")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -59969,6 +56689,15 @@
 		(path "/f1c73308-37c7-4a9b-a8e0-7bd171f98183")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A4" "A9" "A5" "A2" "A3" "A11" "A10" "A6" "A7" "A8" "A1" "A12"
+					"S4" "S3" "S2" "S1" "B4" "B9" "B5" "B11" "B10" "B2" "B3" "B7" "B6" "B8"
+					"B1" "B12" "S11" "S12" "S13" "S14"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -4.558 -2.95)
@@ -60530,6 +57259,12 @@
 		(path "/6ec154f6-d6a7-4359-a327-a4dadeeccf73")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.55 -1.25)
@@ -60725,6 +57460,12 @@
 		(path "/82546703-e97b-43a1-ab23-26f23822b58a")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -60969,6 +57710,14 @@
 		(path "/05600be8-dd8c-4dde-9e67-5d852195c5f8")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "9" "10" "11" "12" "13" "14" "15" "1" "17" "18" "4" "5" "6" "7"
+					"8" "19" "20" "2" "3" "16" "PAD"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -2)
@@ -61408,6 +58157,12 @@
 		(path "/6526555f-0d0f-4ff6-874f-4bea5b97b32e")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -61653,6 +58408,12 @@
 		(path "/b82adcd4-fa8c-4d44-bc35-b34ad586f699")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -61895,6 +58656,15 @@
 		(path "/02b314cb-1b84-4b3e-b967-4525ad66fe69")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A4" "A9" "A5" "A2" "A3" "A11" "A10" "A6" "A7" "A8" "A1" "A12"
+					"S4" "S3" "S2" "S1" "B4" "B9" "B5" "B11" "B10" "B2" "B3" "B7" "B6" "B8"
+					"B1" "B12" "S11" "S12" "S13" "S14"
+				)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -4.558 -2.95)
@@ -62457,6 +59227,12 @@
 		(path "/b8f01435-248a-4e20-8420-0a4c5bd9f61d")
 		(sheetname "/STM32H7/")
 		(sheetfile "pcbgolf_2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -62702,6 +59478,12 @@
 		(path "/5b3308ea-a61e-4050-ba31-5fc8c8bc3a6f")
 		(sheetname "/Channels/")
 		(sheetfile "pcbgolf_5.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4224 0.4294)
@@ -62988,6 +59770,12 @@
 		(path "/fbadc49c-b979-4d95-bbe5-ad66110bb12c")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -63234,6 +60022,12 @@
 		(path "/85974749-7d90-4fd6-b1f3-8d73419b3389")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2" "PAD" "5" "7" "6" "8")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4986 -1.016)
@@ -63499,6 +60293,12 @@
 		(path "/50599693-3999-4cfe-8e1e-40cbe11dd6db")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -63744,6 +60544,12 @@
 		(path "/69fb63b6-360a-46ef-8ea0-184561f0ef1b")
 		(sheetname "/USB + SD/")
 		(sheetfile "pcbgolf_3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.45)
@@ -63988,6 +60794,12 @@
 		(path "/83a08347-4b4e-410c-ada7-557d767d3ca6")
 		(sheetname "/Power/")
 		(sheetfile "pcbgolf.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.8 1.3)
@@ -64138,6 +60950,12 @@
 		(path "/cd3b4e9d-98a0-48e1-8264-f2b3d794dbec")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.65 -1.3)
