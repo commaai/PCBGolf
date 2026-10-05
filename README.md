@@ -31,7 +31,7 @@ Schematics: [Power](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fcomm
 
 ## The Challenge
 
-Your goal is to make the most compact, efficient board that retains the same interfaces and functionality as the original design. The lowest score wins.
+Your goal is to make the most compact, efficient PCBA that retains the same interfaces and functionality as the original design. The lowest score wins.
 
 <p align="center">
   <picture>
@@ -42,7 +42,7 @@ Your goal is to make the most compact, efficient board that retains the same int
 
 ### Rules
 
-* The bare PCB must be fully manufacturable by JLCPCB.
+* The bare PCB(s) must be fully manufacturable by JLCPCB.
 * It must be possible to actually assemble the PCBA.
 * The assembled product must work and be usable.
 * Mating connectors must remain mechanically and electrically compatible.
